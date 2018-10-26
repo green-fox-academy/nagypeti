@@ -1,0 +1,24 @@
+CLI – GIT Bash (Linux – Unix enviroment)
+man – get manual (vagy - - help) – parancs - - help
+
+pwd - present working directory
+ls - list (ls -a , list aall includng hidden files)
+cd – change directory - cd .. (jump one level up) - cd / goes to root dir – cd /Peter/GreenFox/Documents can give the exact path you want to follow
+mkdir – make directory
+rmdir – remove directory (only works on empty dir)
+rm –R – remove directory with everything in it
+rm – remove file
+touch – create new file
+cp – copy file
+mv – move file - mv test.txt ../TAB-ot nyomva listázza milyen mappák elérhetők!
+cat – read the content of the sleected file 
+nano – built in text editor (Linux env)
+> - redirects the standard output to a file - echo "Hello" > hello.txt – it overwrites all original content cat oceans.txt > continents.txt 
+>> - takes output of and appends it to the file named ont he right side - cat oceans.txt > continents.txt 
+<  - takes the input from file and inputs into the program on left - cat < lakes.txt
+wc – outputs number of lines, words, and characters
+| - takes the standard output of the command on the left, and pipes it as standard input to the command on the right - cat volcanoes.txt | wc | cat > islands.txt
+sort – sort items in alphabetic order  - cat lakes.txt | sort > sorted-lakes.txt (commands can be combined)
+uniq - filters out adjacent, duplicate lines in a file
+grep - "global regular expression print" it searches file for lines that match a pattern and returns the results - grep Mount mountains.txt - grep -i Mount mountains.txt makes the command case insensitive
+sed - "stream editor". It accepts standard input and modifies it based on an expression -sed 's/snow/rain/' forests.txt (s – for substitution/snow – the word we want to replace/rain – what we want tot add in the place)
