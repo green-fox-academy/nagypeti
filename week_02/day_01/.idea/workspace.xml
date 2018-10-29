@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0a31f4f-3038-4a52-b69c-6689624b8187" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_basics.docx" beforeDir="false" afterPath="$PROJECT_DIR$/java_basics.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,42 +23,60 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3248" />
+          <entry key="java" value="4683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3248" />
+          <entry key="JAVA" value="4683" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PrintBigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="252">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Variables/bmi.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PartyIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="735">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/ConditionalVariableMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1281">
+              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -89,13 +108,18 @@
         <option value="$PROJECT_DIR$/src/com/company/Variables/Swap.java" />
         <option value="$PROJECT_DIR$/src/com/company/Variables/bmi.java" />
         <option value="$PROJECT_DIR$/src/com/company/Variables/DefineBasicInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java" />
         <option value="$PROJECT_DIR$/src/com/company/Variables/Cuboid.java" />
         <option value="$PROJECT_DIR$/src/com/company/Variables/SecondInADay.java" />
         <option value="$PROJECT_DIR$/src/com/company/UserInput/HelloUser.java" />
         <option value="$PROJECT_DIR$/src/com/company/UserInput/MileToKmConverter.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Conditionals/OddEven.java" />
         <option value="$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Conditionals/OneTwoALot.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Conditionals/PrintBigger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Conditionals/PartyIndicator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Conditionals/ConditionalVariableMutation.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java" />
       </list>
     </option>
   </component>
@@ -141,14 +165,7 @@
               <item name="day_01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Types" type="462c0819:PsiDirectoryNode" />
+              <item name="Conditionals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day_01" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540823590511" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540828149756" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -188,33 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AvarageOfInput">
-    <configuration name="AnimalsAndLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.UserInput.AnimalsAndLegs" />
-      <module name="day_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.UserInput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvarageOfInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.UserInput.AvarageOfInput" />
-      <module name="day_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.UserInput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VariableMutation">
     <configuration name="CodingHours" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Types.CodingHours" />
       <module name="day_01" />
@@ -228,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.UserInput.HelloUser" />
+    <configuration name="ConditionalVariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Conditionals.ConditionalVariableMutation" />
       <module name="day_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.UserInput.*" />
+          <option name="PATTERN" value="com.company.Conditionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +232,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MileToKmConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.UserInput.MileToKmConverter" />
+    <configuration name="OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Conditionals.OneTwoALot" />
       <module name="day_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.UserInput.*" />
+          <option name="PATTERN" value="com.company.Conditionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,8 +245,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Variables.SecondInADay" />
+    <configuration name="PartyIndicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Conditionals.PartyIndicator" />
+      <module name="day_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Conditionals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintBigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Conditionals.PrintBigger" />
+      <module name="day_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Conditionals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Variables.VariableMutation" />
       <module name="day_01" />
       <extension name="coverage">
         <pattern>
@@ -269,19 +286,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CodingHours" />
-      <item itemvalue="Application.SecondInADay" />
-      <item itemvalue="Application.HelloUser" />
-      <item itemvalue="Application.MileToKmConverter" />
-      <item itemvalue="Application.AnimalsAndLegs" />
-      <item itemvalue="Application.AvarageOfInput" />
+      <item itemvalue="Application.OneTwoALot" />
+      <item itemvalue="Application.PrintBigger" />
+      <item itemvalue="Application.PartyIndicator" />
+      <item itemvalue="Application.ConditionalVariableMutation" />
+      <item itemvalue="Application.VariableMutation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AvarageOfInput" />
-        <item itemvalue="Application.AnimalsAndLegs" />
-        <item itemvalue="Application.MileToKmConverter" />
-        <item itemvalue="Application.HelloUser" />
-        <item itemvalue="Application.SecondInADay" />
+        <item itemvalue="Application.VariableMutation" />
+        <item itemvalue="Application.ConditionalVariableMutation" />
+        <item itemvalue="Application.PartyIndicator" />
+        <item itemvalue="Application.PrintBigger" />
+        <item itemvalue="Application.OneTwoALot" />
       </list>
     </recent_temporary>
   </component>
@@ -295,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540811830023</updated>
-      <workItem from="1540811831524" duration="11185000" />
+      <workItem from="1540811831524" duration="15614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11185000" />
+    <option name="totallyTimeSpent" value="15614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -311,7 +328,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -320,7 +337,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,20 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/bmi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Variables/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -492,17 +495,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/bmi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="231">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/OneTwoALot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="168">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/OddEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PrintBigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PartyIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/ConditionalVariableMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
         </state>
       </provider>
     </entry>

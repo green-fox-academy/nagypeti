@@ -6,7 +6,6 @@ public class AnimalsAndLegs {
 
     public static void main(String[] args) {
 
-
         // Write a program that asks for two integers
         // The first represents the number of chickens the farmer has
 
@@ -29,7 +28,6 @@ public class AnimalsAndLegs {
         int animalLegsSumm = chickenLegs + pigLegs;
 
         System.out.println("Your animals have " + animalLegsSumm + " legs!");
-
 
     }
 }

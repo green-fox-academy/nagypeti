@@ -57,11 +57,12 @@ public class VariableMutation {
         int h = 135798745;
         int divisor11 = h % 11;
 
-        if (divisor11 == 0) {
-            System.out.println("11 is divisor of " + h);
-        } else {
-            System.out.println("11 is not a divisor of " + h);
-        }
+        System.out.println("Osztható 11-el");
+
+        boolean divisor234 = divisor11 == 0;
+
+        System.out.println(divisor234);
+
 
         // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
 
