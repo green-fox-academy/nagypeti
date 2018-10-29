@@ -57,12 +57,11 @@ public class VariableMutation {
         int h = 135798745;
         int divisor11 = h % 11;
 
-        System.out.println("Osztható 11-el");
+        System.out.println("Osztható 11-el?");
 
-        boolean divisor234 = divisor11 == 0;
+        boolean isItDividableWith11 = divisor11 == 0;
 
-        System.out.println(divisor234);
-
+        System.out.println(isItDividableWith11);
 
         // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
 
