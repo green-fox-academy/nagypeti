@@ -14,7 +14,6 @@ public class reverseList {
             inputList[i] = inputList[inputList.length - 1 - i];
             inputList[inputList.length - 1 - i] = temporary;
         }
-
     }
 
     public static void printList (int [] inputList) {
@@ -22,7 +21,6 @@ public class reverseList {
         for (int element : inputList) {
             System.out.println(element);
         }
-
     }
 
     public static void main(String[] args) {

@@ -10,7 +10,6 @@ public class incrementElement {
     public static int elementIncrementer (int [] inputList, int indexOfElement){
 
         return inputList[indexOfElement]++;
-
     }
 
     public static void main(String[] args) {
@@ -22,5 +21,4 @@ public class incrementElement {
         System.out.println(t[2]);
 
     }
-
 }

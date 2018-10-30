@@ -1,7 +1,5 @@
 package com.week02.day02.arrays;
 
-import java.util.Arrays;
-
 public class matrix {
 
     // - Create (dynamically) a two dimensional array
@@ -36,7 +34,6 @@ public class matrix {
     }
 
     public static void main(String[] args) {
-
 
         int[][] myMatrixNew = new int[4][4];
 

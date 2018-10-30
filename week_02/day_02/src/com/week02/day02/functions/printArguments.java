@@ -19,8 +19,8 @@ public class printArguments {
 
         for (String element : input) {
             System.out.println(element);
-        }
 
+        }
     }
 
     public static void main(String[] args) {

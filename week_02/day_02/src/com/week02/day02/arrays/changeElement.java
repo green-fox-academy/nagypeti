@@ -16,5 +16,4 @@ public class changeElement {
         System.out.println(s[3]);
 
     }
-
 }

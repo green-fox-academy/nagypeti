@@ -19,10 +19,10 @@ public class colors {
                 {"orchid", "violet", "pink", "hot pink"}
         };
 
-        System.out.println(shadesOfColors[2][0]);
-        System.out.println(shadesOfColors[2][1]);
-        System.out.println(shadesOfColors[2][2]);
-        System.out.println(shadesOfColors[2][3]);
+//        System.out.println(shadesOfColors[2][0]);
+//        System.out.println(shadesOfColors[2][1]);
+//        System.out.println(shadesOfColors[2][2]);
+//        System.out.println(shadesOfColors[2][3]);
 
     }
 }

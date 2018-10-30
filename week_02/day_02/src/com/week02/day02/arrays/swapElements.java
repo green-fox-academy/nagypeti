@@ -19,7 +19,6 @@ public class swapElements {
         for (String elements : input) {
             System.out.println(elements);
         }
-
     }
 
     public static void main(String[] args) {
@@ -28,7 +27,6 @@ public class swapElements {
 
         swapper(abc, 0,2);
         printList(abc);
-
 
     }
 

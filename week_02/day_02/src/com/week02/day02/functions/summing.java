@@ -2,7 +2,6 @@ package com.week02.day02.functions;
 
 public class summing {
 
-
         //  Create the usual class wrapper
         //  and main method on your own.
 
@@ -15,17 +14,15 @@ public class summing {
 
         for (int i = 0 ; i < input; i++) {
             sumTotal = sumTotal + i;
-        } return sumTotal;
+        }
+        return sumTotal;
     }
 
     public static void main(String[] args) {
-
 
         int inputNr = 18;
 
         System.out.println(sum(inputNr));
 
-
     }
-
 }

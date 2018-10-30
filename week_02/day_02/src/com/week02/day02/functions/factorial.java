@@ -26,6 +26,4 @@ public class factorial {
         System.out.println("Factorial of " + factNr + " is: " + factorio(factNr));
 
     }
-
-
 }

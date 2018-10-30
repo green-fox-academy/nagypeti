@@ -11,7 +11,6 @@ public class appendA {
         for (int i = 0; i < input.length; i++) {
             input [i] += "a";
         }
-
     }
 
     public static void printList (String [] input) {
@@ -19,7 +18,6 @@ public class appendA {
         for (String elements : input) {
             System.out.println(elements);
         }
-
     }
 
     public static void main(String[] args) {
@@ -30,5 +28,4 @@ public class appendA {
         printList(animals);
 
     }
-
 }

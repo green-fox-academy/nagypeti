@@ -11,7 +11,6 @@ public class doubleItems {
         for(int i = 0; i < input.length; i++) {
             input [i] = input [i] * 2;
         }
-
     }
 
     public static void printList (int [] input) {
@@ -19,7 +18,6 @@ public class doubleItems {
         for (int elements : input) {
             System.out.println(elements);
         }
-
     }
 
     public static void main(String[] args) {
@@ -30,5 +28,4 @@ public class doubleItems {
         printList(numList);
 
     }
-
 }

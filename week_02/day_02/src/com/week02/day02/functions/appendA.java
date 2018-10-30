@@ -12,9 +12,9 @@ public class appendA {
         // - Print the result of `appendAFunc(typo)`
 
     public static String appendAFunc (String input) {
+
         return input + "a";
     }
-
 
     public static void main(String[] args) {
 
@@ -23,5 +23,4 @@ public class appendA {
         System.out.println(appendAFunc(typo));
 
     }
-
 }

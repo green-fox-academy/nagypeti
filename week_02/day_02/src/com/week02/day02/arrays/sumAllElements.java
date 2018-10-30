@@ -13,9 +13,7 @@ public class sumAllElements {
         for (int i : inputList){
             sumTotal += i;
         }
-
         return sumTotal;
-
     }
 
 
