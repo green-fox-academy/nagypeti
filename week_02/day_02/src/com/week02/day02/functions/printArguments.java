@@ -12,23 +12,20 @@ public class printArguments {
             // Examples
             // printParams("first")
             // printParams("first", "second")
-            // printParams("first", "second", "third", "fourh")
+            // printParams("first", "second", "third", "fourth")
             // ...
 
-    public static String printParams (String... input){
+    public static void printParams (String... input){
 
-        String allInput = "";
-
-        for (int i = 0; i < input.length; i++)
-            allInput += input;
-
-        return allInput;
+        for (String element : input) {
+            System.out.println(element);
+        }
 
     }
 
     public static void main(String[] args) {
 
-        System.out.println(printParams("asd","kasdasd","ortlkbfmkl"));
+        printParams("asd","kasdasd","ortlkbfmkl");
 
     }
 }

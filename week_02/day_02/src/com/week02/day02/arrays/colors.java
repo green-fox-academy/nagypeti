@@ -13,8 +13,16 @@ public class colors {
 
     public static void main(String[] args) {
 
-        String [] shadesOfColors = new [][]
+        String [][] shadesOfColors = {
+                {"lime", "forest green", "olive", "pale green", "spring green"},
+                {"orange red", "red", "tomato"},
+                {"orchid", "violet", "pink", "hot pink"}
+        };
 
+        System.out.println(shadesOfColors[2][0]);
+        System.out.println(shadesOfColors[2][1]);
+        System.out.println(shadesOfColors[2][2]);
+        System.out.println(shadesOfColors[2][3]);
 
     }
 }
