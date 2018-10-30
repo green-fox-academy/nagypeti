@@ -1,5 +1,7 @@
 package com.week02.day02.arrays;
 
+import java.util.Arrays;
+
 public class matrix {
 
     // - Create (dynamically) a two dimensional array
@@ -12,7 +14,18 @@ public class matrix {
     //
     // - Print this two dimensional array to the output
 
-    public static void printMAtrix (int[][] matrixToPrint){
+    public static void fillMatrix (int [][] matrixToFill) {
+
+        for (int i = 0; i < matrixToFill.length; i++) {
+            for (int j = 0; j < matrixToFill.length; j++) {
+                if (i == j) {
+                    matrixToFill[i][j] += 1;
+                }
+            }
+        }
+    }
+
+    public static void printMatrix (int[][] matrixToPrint){
 
         for (int i = 0; i < matrixToPrint.length; i++) {
             for (int j = 0; j < matrixToPrint.length; j++) {
@@ -24,14 +37,12 @@ public class matrix {
 
     public static void main(String[] args) {
 
-        int[][] myMatrix = {
-                {1, 0, 0, 0},
-                {0, 1, 0, 0},
-                {0, 0, 1, 0},
-                {0, 0, 0, 1}
-        };
 
-        printMAtrix(myMatrix);
+        int[][] myMatrixNew = new int[4][4];
+
+        fillMatrix(myMatrixNew);
+
+        printMatrix(myMatrixNew);
 
     }
 }
