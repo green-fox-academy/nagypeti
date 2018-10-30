@@ -1,18 +1,21 @@
-package com.week02.day02.materialPractice;
+*/
+Java Arrays: are variables that can store many values in it 
+    -	useful when you want a have var that has a bunch of related informatino
+    -	it can only store variable of one data type
+    -	first index is 0, so a list 10 of ten elements can be targeted from 0-9
+*/
 
-public class arrayBasics {
-
-    public static void main(String[] args) {
 
 ///!!!  // CREATING a new data type array. Example: int type array
-        int bucky [] = new int [10]; //We declare how much element will be stored in the created array
 
-        bucky [0] = 23;
+        int bucky [] = new int [10]; //We declare how much element will be stored in the created array
+                            
+        bucky [0] = 23;     
         bucky [1] = 567;    //If want, we can index all the elements in the array
         // ...
         // ...
         bucky [9] = 90;
-
+        
         System.out.println(bucky[1]);
 
 
@@ -23,7 +26,9 @@ public class arrayBasics {
         System.out.println(newArray[0]);
 
 
-        // We have to define the range of the array, its important because Java will know how much memory need to be reserved
+        // We have to define the range of the array, its important,
+        // because Java will know how much memory need to be reserved
+
         int [] practArray = new int [10];
 
 
@@ -31,12 +36,14 @@ public class arrayBasics {
             System.out.println(practArray[i]);
         }
 
+
 ///!!!  // We can go trough the elements of an array with a specific for loop:
         // The element is not a keyword, it is the name of the variable, it can be "cat" if you like
 
         for (int element : practArray) {
             System.out.println(element);
         }
+
 
 ///!!!  // Arrays are assigned to memory fields, because this feature the elements of the arrays can be rewritten
         // if the array is assigned to other array. In this example the 0 index element of myArray 1 going to be 7,
@@ -50,18 +57,12 @@ public class arrayBasics {
 ///!!!  // We can create multidimensional arrays (matrix - y and x axis creates the index for an element):
 
         int [][] myMatrix = {{1, 2}, {1, 2}};
-
+        
         System.out.println(myMatrix[0][0]);
         System.out.println(myMatrix[1][0]);
         System.out.println(myMatrix[0][1]);
         System.out.println(myMatrix[1][1]);
 
         // Creating a new multi array with its size 10x10,  without giving it the values
-
+        
         String [][] multiArray = new String[10][10];
-
-
-
-    }
-
-}
