@@ -14,7 +14,7 @@ public class methods {
 
     }
 
-    public static void countToLimit {
+    public static void countToLimit (){
 
         Scanner userInput2 = new Scanner(System.in);
 
