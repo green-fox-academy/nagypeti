@@ -2,10 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0a31f4f-3038-4a52-b69c-6689624b8187" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_basics.docx" beforeDir="false" afterPath="$PROJECT_DIR$/java_basics.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$va_basics.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WRL0003.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Conditionals/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Conditionals/ConditionalVariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Conditionals/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Conditionals/OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Conditionals/OneTwoALot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Conditionals/OneTwoALot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Conditionals/PartyIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Conditionals/PartyIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Conditionals/PrintBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Conditionals/PrintBigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HelloWorld/Hello0thers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/HelloWorld/Hello0thers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HelloWorld/HelloMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HelloMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HelloWorld/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HelloWorld/HumptyDumpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HumptyDumpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Loops/CountFromTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Loops/CountFromTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Loops/IWontCheatOnTheExams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Loops/IWontCheatOnTheExams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Loops/MultipictaionTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Loops/MultipictaionTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Loops/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Loops/PrintEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Types/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Types/CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Types/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Types/IntroduceYourself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Types/TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Types/TwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/UserInput/AnimalsAndLegs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/UserInput/AvarageOfInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/UserInput/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserInput/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/UserInput/MileToKmConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/DefineBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/DefineBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/FavouriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/FavouriteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/SecondInADay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/SecondInADay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/VariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Variables/bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day01/Variables/bmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/appendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/appendA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/changeLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/changeLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/compareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/compareLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/doubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/doubleItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/hardOnes/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/hardOnes/Unique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/hardOnes/anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/hardOnes/anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/hardOnes/palindromeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/hardOnes/palindromeSarcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/hardOnes/palindromeSarcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/hardOnes/sortThatList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/hardOnes/sortThatList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/incrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/incrementElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/printElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/printElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/reverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/reverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/sumAllElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/sumAllElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/sumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/sumElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/swapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/swapElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/arrays/third.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/arrays/third.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/appendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/appendA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/doubling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/greeterFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/greeterFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/printArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/printArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/functions/summing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/functions/summing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/materialPractice/arrayBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/materialPractice/arrayBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/materialPractice/classAndLocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/materialPractice/classAndLocalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/src/com/company/materialPractice/deBugging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day_02/src/com/week02/day02/materialPractice/deBugging.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +71,10 @@
     <session id="-1202204589">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,19 +102,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Loops/CountFromTo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Loops/CountFromTo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="21" selection-end-column="39" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -109,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Loops/PrintEven.java" />
         <option value="$PROJECT_DIR$/src/com/company/Loops/MultipictaionTable.java" />
         <option value="$PROJECT_DIR$/src/com/company/Loops/CountFromTo.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day01/Loops/CountFromTo.java" />
       </list>
     </option>
   </component>
@@ -119,9 +164,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -271,16 +316,18 @@
       <updated>1540811830023</updated>
       <workItem from="1540811831524" duration="19896000" />
       <workItem from="1540840228462" duration="41000" />
+      <workItem from="1540889222108" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19937000" />
+    <option name="totallyTimeSpent" value="19976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15167785" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15369128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,112 +394,112 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/HelloWorld/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HelloWorld/HumptyDumpty.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HumptyDumpty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HelloWorld/HelloMe.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/HelloWorld/HelloMe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HelloWorld/Hello0thers.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/HelloWorld/Hello0thers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Types/TwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Types/TwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Types/IntroduceYourself.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Types/IntroduceYourself.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Types/CodingHours.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Types/CodingHours.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/Swap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/Swap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/FavouriteNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/FavouriteNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/DefineBasicInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/DefineBasicInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/Cuboid.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/SecondInADay.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/SecondInADay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/HelloUser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/UserInput/HelloUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/MileToKmConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/UserInput/MileToKmConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/bmi.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/bmi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="56" />
@@ -460,84 +507,84 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/OneTwoALot.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Conditionals/OneTwoALot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AvarageOfInput.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/UserInput/AvarageOfInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/OddEven.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Conditionals/OddEven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Variables/VariableMutation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Variables/VariableMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1191">
           <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/ConditionalVariableMutation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Conditionals/ConditionalVariableMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PartyIndicator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Conditionals/PartyIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Conditionals/PrintBigger.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Conditionals/PrintBigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="15" column="36" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Loops/IWontCheatOnTheExams.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Loops/IWontCheatOnTheExams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Loops/PrintEven.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Loops/PrintEven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Loops/MultipictaionTable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Loops/MultipictaionTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Loops/CountFromTo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/Loops/CountFromTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserInput/AnimalsAndLegs.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day01/UserInput/AnimalsAndLegs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="21" selection-end-column="39" />
