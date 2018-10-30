@@ -1,8 +1,10 @@
 */
+
 Java Arrays: are variables that can store many values in it 
-    -	useful when you want a have var that has a bunch of related informatino
+    -	useful when you want a have var that has a bunch of related information
     -	it can only store variable of one data type
     -	first index is 0, so a list 10 of ten elements can be targeted from 0-9
+
 */
 
 
