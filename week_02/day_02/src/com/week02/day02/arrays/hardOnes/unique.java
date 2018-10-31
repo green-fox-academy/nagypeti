@@ -4,25 +4,29 @@ public class unique {
 
     public static int [] uniqueList (int [] inputList) {
 
-        int [] dupliFreeList = new int [inputList.length];
 
-        dupliFreeList[0] = inputList[0];
+        int uniqueCount = 0;
 
-        int dupCounter = 0;
+        int [] dupliFreeList = new int [inputList.length - uniqueCount];
 
         for (int i = 0; i < inputList.length; i++) {
-            for (int j = 0; j < dupliFreeList.length -1; j++) {
-                if (dupliFreeList[j] == inputList[i]) {
-                    dupCounter++;
+            int thisInt = inputList[i];
+            boolean notUnique = false;
+            for (int j = 0; j < i; j++) {
+                if (thisInt == inputList[j]) {
+                    notUnique = true;
                 }
+            }
+            if (!notUnique) {
+                uniqueCount++;
             }
         }
         return dupliFreeList;
     }
 
-    public static void printList (int [] input) {
+    public static void printList (int [] inputList) {
 
-        for (int elements : input) {
+        for (int elements : inputList) {
             System.out.println(elements);
         }
     }
