@@ -31,7 +31,7 @@ public class unique {
 
         int [] listToSort = {1, 11, 34, 11, 52, 61, 1, 34};
 
-       printList(uniqueList(listToSort));
+        printList(uniqueList(listToSort));
 
     }
 }
