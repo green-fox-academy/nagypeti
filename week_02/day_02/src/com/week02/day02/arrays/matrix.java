@@ -37,7 +37,14 @@ public class matrix {
 
         int[][] myMatrixNew = new int[4][4];
 
+        printMatrix(myMatrixNew);
+
+
         fillMatrix(myMatrixNew);
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
 
         printMatrix(myMatrixNew);
 
