@@ -1,36 +1,28 @@
 package com.week02.day01.Loops;
 
 import java.util.Scanner;
+import com.week02.day01.Loops.drawPyramid;
 
 public class drawDiamond {
 
-    public static void drawPyramid(int number) {
+
+    public static void drawInverzPyramid (int number) {
 
         for (int i = 0; i < number; i++) {
-            if (i % 2 == 0){
-                for (int j = 0; j < number - i; j++) {
-                    if (j % 2 != 0) {
-                        System.out.print(" ");
-                    }
-                }
-                for (int k = 0; k <= i; k++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            if (i != 0) {
+                for (int k = 1; k < number - i; k++) {
                     System.out.print("*");
                 }
-                System.out.println();
             }
-        }
-    }
-
-    public static void drawInverzPyramid (int number){
-
-        for (int i = number; i >= 0; --i) {
-            if (i % 2 == 0) {
-                for (int j = number - number/2 - 1; j > i / 2; --j) {
-                    System.out.print(" ");
+            if (i != 0) {
+                for (int l = 1; l <= number - i; l++) {
+                    System.out.print("*");
                 }
-                for (int k = 0; k <= i; k++) {
-                        System.out.print("*");
-                }
+            }
+            if (i != 0) {
                 System.out.println("");
             }
         }
@@ -39,7 +31,7 @@ public class drawDiamond {
 
     public static void main(String[] args) {
 
-        System.out.println("Give me an odd number:");
+        System.out.println("Give me a number and I draw you a diamond:");
 
         Scanner input = new Scanner(System.in);
 
@@ -47,9 +39,8 @@ public class drawDiamond {
 
         System.out.println("Here is a diamond built from it!");
 
-        drawPyramid(num);
+        drawPyramid.drawPyramid(num);
         drawInverzPyramid(num);
-
 
     }
 }
