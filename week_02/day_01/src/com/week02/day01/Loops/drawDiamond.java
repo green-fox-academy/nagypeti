@@ -16,18 +16,13 @@ public class drawDiamond {
                 for (int k = 1; k < number - i; k++) {
                     System.out.print("*");
                 }
-            }
-            if (i != 0) {
                 for (int l = 1; l <= number - i; l++) {
                     System.out.print("*");
                 }
-            }
-            if (i != 0) {
                 System.out.println("");
             }
         }
     }
-
 
     public static void main(String[] args) {
 
@@ -37,7 +32,7 @@ public class drawDiamond {
 
         int num = input.nextInt();
 
-        System.out.println("Here is a diamond built from it!");
+        System.out.println("Here's your diamond! :)");
 
         drawPyramid.drawPyramid(num);
         drawInverzPyramid(num);
