@@ -20,8 +20,8 @@ public class practiceStringMethods {
 //        s.lastIndexOf('r');   - We can get the index of last found character
 //        s.substring(3, 8);    - We can cut out a part form a string, we have to give the first index
 //                              we want to cut from and the last we want to cut
-//        s.replace('r', 'l');  - We can replace characters (words, etc), ors string fragments, first place the old char, then
-//                              the new char
+//        s.replace('r', 'l');  - We can replace characters (words, etc), or string fragments, first place the old char,
+//                              then the new char
 //        asdList.split(" ");   - We can split the string along given character,
 //                              like we split the string after every whitespace
 //        s.trim();             - Deletes whitespaces from the end and the beginning of the string
