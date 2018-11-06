@@ -21,23 +21,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="6836" />
+          <entry key="java" value="7124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6836" />
+          <entry key="JAVA" value="7124" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -70,10 +70,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/elementFinder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/isInList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#266#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +113,6 @@
         <option value="$PROJECT_DIR$/src/com/company/strings/simpleReplace.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/strings/simpleReplace.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/strings/urlFixer.java" />
-        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/toDoPrint.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/strings/reverse.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/strings/takesLonger.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/solarSystem.java" />
@@ -117,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/appendLetter.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/candyShop.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/elementFinder.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/toDoPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/isInList.java" />
       </list>
     </option>
   </component>
@@ -189,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541516733024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541517799836" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.elementFinder">
+  <component name="RunManager" selected="Application.isInList">
     <configuration name="appendLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.appendLetter" />
       <module name="day_02" />
@@ -243,8 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matchMaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.matchMaking" />
+    <configuration name="isInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.isInList" />
       <module name="day_02" />
       <extension name="coverage">
         <pattern>
@@ -256,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.solarSystem" />
+    <configuration name="toDoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.strings.toDoPrint" />
       <module name="day_02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week03.day02.lists.*" />
+          <option name="PATTERN" value="com.week03.day02.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +275,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.solarSystem" />
-      <item itemvalue="Application.matchMaking" />
       <item itemvalue="Application.appendLetter" />
       <item itemvalue="Application.candyShop" />
       <item itemvalue="Application.elementFinder" />
+      <item itemvalue="Application.toDoPrint" />
+      <item itemvalue="Application.isInList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isInList" />
+        <item itemvalue="Application.toDoPrint" />
         <item itemvalue="Application.elementFinder" />
         <item itemvalue="Application.candyShop" />
         <item itemvalue="Application.appendLetter" />
-        <item itemvalue="Application.matchMaking" />
-        <item itemvalue="Application.solarSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +305,12 @@
       <workItem from="1541493535604" duration="2103000" />
       <workItem from="1541496272633" duration="5385000" />
       <workItem from="1541502519008" duration="5464000" />
-      <workItem from="1541509629627" duration="6979000" />
+      <workItem from="1541509629627" duration="8105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24857000" />
+    <option name="totallyTimeSpent" value="25983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -320,7 +325,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +334,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week03/day02/strings/toDoPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week03/day02/strings/takesLonger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -473,6 +471,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week03/day02/strings/toDoPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/elementFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/candyShop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -483,10 +498,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/elementFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week03/day02/lists/isInList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
