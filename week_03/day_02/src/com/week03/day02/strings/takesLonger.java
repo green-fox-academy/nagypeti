@@ -12,12 +12,11 @@ public class takesLonger {
 
         System.out.println(quote.indexOf('I'));
 
-        String fixQuote = quote.substring(18, 24);
-        fixQuote = fixQuote.replace(" ", " always takes longer than ");
+        StringBuilder fixQuote = new StringBuilder(quote);
 
-        System.out.println(fixQuote);
+        fixQuote.insert(18, " always takes longer than ");
 
-        quote = quote.replace("It you", fixQuote);
+
 
         System.out.println(quote);
 
