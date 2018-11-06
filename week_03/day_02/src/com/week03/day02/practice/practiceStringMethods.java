@@ -1,4 +1,4 @@
-package com.company.practice;
+package com.week03.day02.practice;
 
 public class practiceStringMethods {
 

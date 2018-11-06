@@ -1,4 +1,4 @@
-package com.company.practice;
+package com.week03.day02.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package com.company.strings;
+package com.week03.day02.strings;
 
-public class SimpleReplace {
+public class simpleReplace {
 
     public static void main(String... args) {
 
