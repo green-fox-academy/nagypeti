@@ -18,6 +18,12 @@ public class reverse {
 
         System.out.println(reversed);
 
+//        String reverseSentence = "";
+//        for(int i = reversed.length() - 1; i >= 0; i--){
+//            reverseSentence = reverseSentence + reversed.charAt(i);
+//        }
+//        System.out.println(reverseSentence);
+
     }
 
 }

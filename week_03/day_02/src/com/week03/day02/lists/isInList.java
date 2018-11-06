@@ -6,7 +6,7 @@ import java.util.*;
 public class isInList {
     public static void checkNums (ArrayList inputList){
 
-        ArrayList<Integer> listToCheck = new ArrayList<Integer>(Arrays.asList(4, 8, 12, 16));
+        ArrayList<Integer> listToCheck = new ArrayList<>(Arrays.asList(4, 8, 12, 16));
 
         if (inputList.containsAll(listToCheck)){
             System.out.println("True");
