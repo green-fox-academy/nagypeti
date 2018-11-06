@@ -1,10 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a45a8b-90de-4abe-966a-f56f680bf813" name="Default Changelist" comment="">
+    <list default="true" id="61098efc-269e-4e91-8ae8-0002b68dcbfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/topography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_03/cli_commands.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_03/git_commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/java_basics.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/ConditionalVariableMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/OddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/OneTwoALot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/PartyIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/PrintBigger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/Hello0thers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HelloMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HumptyDumpty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/CountFromTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/IWontCheatOnTheExams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/MultipictaionTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/PrintEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawDiamond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawPyramid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/guessTheNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/CodingHours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/IntroduceYourself.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/TwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/AnimalsAndLegs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/AvarageOfInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/HelloUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/MileToKmConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/Cuboid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/DefineBasicInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/FavouriteNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/SecondInADay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/Swap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/VariableMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/bmi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaArrays.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaMethods.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/appendA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/compareLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/doubleItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/Unique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/palindromeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/palindromeSarcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/sortThatList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/incrementElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/printElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/reverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/sumAllElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/sumElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/swapElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/third.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/appendA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/doubling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/greeterFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/printArguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/summing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/arrayBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/classAndLocalVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/deBugging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/appendA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/changeElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/colors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/compareLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/doubleItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/anagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeSarcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/sortThatList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/unique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/incrementElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/printElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/sumAllElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/sumElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/swapElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/third.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/appendA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/doubling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/greeterFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/printArguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/summing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/arrayBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/classAndLocalVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/deBugging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/day_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/day_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/appendLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/candyShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/elementFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/isInList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/matchMaking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/quoteSwap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/solarSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/arrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/hashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/practiceStringMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/simpleReplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/takesLonger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/toDoPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/urlFixer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,83 +146,94 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/day_02$unique.ic" NAME="unique Coverage Results" MODIFIED="1540933749750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.week02.day02.arrays.hardOnes.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1398718093">
+    <session id="-903911021">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="15" />
-          <entry key="java" value="9984" />
-          <entry key="txt" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="9984" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="141" />
-          <entry key="txt" value="7" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="141" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="java" value="8156" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8156" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1398718093">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="day_02" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/unique.java">
+        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/arrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="66">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="107">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="154">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +247,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>anyObject</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>myFirstListInJava</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -110,41 +262,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/arrayBasics.java" />
-        <option value="$PROJECT_DIR$/src/com/company/classAndLocalVariable.java" />
-        <option value="$PROJECT_DIR$/src/com/company/deBugging.java" />
-        <option value="$PROJECT_DIR$/src/com/company/materialPractice/deBugging.java" />
-        <option value="$PROJECT_DIR$/src/com/company/materialPractice/arrayBasics.java" />
-        <option value="$PROJECT_DIR$/src/com/company/arrays/hardOnes/sortThatList.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/materialPractice/arrayBasics.java" />
-        <option value="$PROJECT_DIR$/javaArraysAndMethod.txt" />
-        <option value="$PROJECT_DIR$/javaMethods.txt" />
-        <option value="$PROJECT_DIR$/javaArrays.txt" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/materialPractice/methods.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/sumElements.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/printElements.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/third.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/swapElements.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/sumAllElements.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/incrementElement.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/doubleItems.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/compareLength.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/colors.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/changeElement.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/appendA.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/appendA.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/doubling.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/factorial.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/greeterFunction.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/printArguments.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/functions/summing.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/materialPractice/unique.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/unique.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/asd.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java" />
-        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/practice/hashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/practice/arrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/practice/practiceStringMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/company/strings/SimpleReplace.java" />
+        <option value="$PROJECT_DIR$/src/com/company/strings/simpleReplace.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/simpleReplace.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/urlFixer.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/takesLonger.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/matchMaking.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/appendLetter.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/candyShop.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/elementFinder.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/toDoPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/isInList.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/strings/reverse.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/quoteSwap.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/solarSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/week03/day02/lists/calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java" />
       </list>
     </option>
   </component>
@@ -156,8 +292,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,48 +309,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week02_day02" type="b2602c69:ProjectViewProjectNode" />
               <item name="day_02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week02_day02" type="b2602c69:ProjectViewProjectNode" />
               <item name="day_02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="hardOnes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="materialPractice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,8 +327,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541002454395" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541523453877" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week_01/day_03" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,13 +345,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.matrix">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week02.day02.Main" />
-      <module name="day_02" />
+  <component name="RunManager" selected="Application.calculator">
+    <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.calculator" />
+      <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week02.day02.*" />
+          <option name="PATTERN" value="com.week03.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week02.day02.arrays.matrix" />
-      <module name="day_02" />
+    <configuration name="isInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.isInList" />
+      <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week02.day02.arrays.*" />
+          <option name="PATTERN" value="com.week03.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week02.day02.arrays.reverseList" />
-      <module name="day_02" />
+    <configuration name="quoteSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.quoteSwap" />
+      <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week02.day02.arrays.*" />
+          <option name="PATTERN" value="com.week03.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unique (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week02.day02.materialPractice.unique" />
-      <module name="day_02" />
+    <configuration name="solarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.solarSystem" />
+      <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week02.day02.materialPractice.*" />
+          <option name="PATTERN" value="com.week03.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week02.day02.arrays.hardOnes.unique" />
-      <module name="day_02" />
+    <configuration name="toDoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week03.day02.strings.toDoPrint" />
+      <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week02.day02.arrays.hardOnes.*" />
+          <option name="PATTERN" value="com.week03.day02.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,19 +412,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.matrix" />
-      <item itemvalue="Application.unique" />
-      <item itemvalue="Application.reverseList" />
-      <item itemvalue="Application.unique (1)" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.toDoPrint" />
+      <item itemvalue="Application.isInList" />
+      <item itemvalue="Application.quoteSwap" />
+      <item itemvalue="Application.solarSystem" />
+      <item itemvalue="Application.calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.matrix" />
-        <item itemvalue="Application.unique" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.unique (1)" />
-        <item itemvalue="Application.reverseList" />
+        <item itemvalue="Application.calculator" />
+        <item itemvalue="Application.solarSystem" />
+        <item itemvalue="Application.quoteSwap" />
+        <item itemvalue="Application.isInList" />
+        <item itemvalue="Application.toDoPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -328,75 +433,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14a45a8b-90de-4abe-966a-f56f680bf813" name="Default Changelist" comment="" />
-      <created>1540840265409</created>
+      <changelist id="61098efc-269e-4e91-8ae8-0002b68dcbfe" name="Default Changelist" comment="" />
+      <created>1541445603668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540840265409</updated>
-      <workItem from="1540840271035" duration="5662000" />
-      <workItem from="1540885902892" duration="1537000" />
-      <workItem from="1540889263704" duration="28368000" />
-      <workItem from="1540926569441" duration="8069000" />
-      <workItem from="1540973334359" duration="386000" />
-      <workItem from="1540973723147" duration="21000" />
-      <workItem from="1540975209993" duration="4657000" />
-      <workItem from="1540980321705" duration="3000" />
-      <workItem from="1540987502701" duration="2226000" />
-      <workItem from="1540994426711" duration="3778000" />
-      <workItem from="1541064827868" duration="87000" />
-      <workItem from="1541509535863" duration="86000" />
+      <updated>1541445603668</updated>
+      <workItem from="1541445605370" duration="4926000" />
+      <workItem from="1541493535604" duration="2103000" />
+      <workItem from="1541496272633" duration="5385000" />
+      <workItem from="1541502519008" duration="5464000" />
+      <workItem from="1541509629627" duration="13719000" />
+      <workItem from="1541535009729" duration="127000" />
+      <workItem from="1541535321769" duration="102000" />
+      <workItem from="1541535439287" duration="85000" />
+      <workItem from="1541535560832" duration="4000" />
+      <workItem from="1541535569189" duration="30000" />
+      <workItem from="1541535750052" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54880000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="31995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49621212" visible="true" weight="0.15503356" />
-      <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.147651" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5037879" side_tool="true" weight="0.15100671" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32624114" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4964539" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32765958" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,25 +466,55 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32624114" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2516269" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
@@ -433,226 +525,207 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/materialPractice/classAndLocalVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/materialPractice/deBugging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeSarcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaArraysAndMethod.txt" />
-    <entry file="file://$PROJECT_DIR$/javaMethods.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/materialPractice/methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/materialPractice/arrayBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/sortThatList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/third.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/swapElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/sumElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/sumAllElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/printElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/incrementElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/appendA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/doubling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/greeterFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/printArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/functions/summing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/changeElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/appendA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/compareLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/doubleItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/materialPractice/unique.java" />
     <entry file="file://$PROJECT_DIR$/src/com/week02/day02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaArrays.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/hashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="393">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/asd.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/unique.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/practiceStringMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="264">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/appendLetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="154">
           <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/strings/takesLonger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/strings/urlFixer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="88">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/strings/simpleReplace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/strings/toDoPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/isInList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/strings/reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/matchMaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/solarSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/arrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WEEK02DAY02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
