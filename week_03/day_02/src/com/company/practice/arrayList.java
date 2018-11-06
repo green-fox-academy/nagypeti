@@ -1,26 +1,42 @@
 package com.company.practice;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class arrayList {
 
     public static void main(String[] args) {
+        
+//      - ArrayLists are Java specific data structures, can be implement in other languages like basic arrays,
+//      - Arrays are basic data structures in almost every languages
 
-//      - The collections is dynamic (not fix sized, dont have to initialize te length of it)
+//      - The ArrayLists are dynamic (not fix sized, don't have to initialize the length of it)
 //      like arrays
 
-//      - Collections only use object (cant assign primitive types (int, double)
-//      - Collections can contain any type of objects
+//      - ArrayLists only use object (cant assign primitive types (int, double)
+//      - ArrayLists can contain any type of objects
 
-        ArrayList anyObject = new ArrayList();
+        ArrayList <String> myFirstListInJava = new ArrayList ();
 
-        ArrayList anyObjectCopy = new ArrayList();
 
-        anyObjectCopy.addAll(anyObject);
+        myFirstListInJava.add(0, "Im the 0 index element");
+        myFirstListInJava.add(1, "Im the 1 index element");
+        myFirstListInJava.add(2, "Im the 2 index element");
+        myFirstListInJava.add(10, "Im the 10 index element");
+        myFirstListInJava.add(0, "Im going to be move to 0 index position");
 
-//      Add all of objects from another arraylist
+        System.out.println(myFirstListInJava);
+
+//      Add all of objects from another ArrayList
+
+        ArrayList <String> myFirstListInJavaCopy = new ArrayList ();
+
+        myFirstListInJavaCopy.addAll(myFirstListInJava);
+
+        System.out.println(myFirstListInJavaCopy);
+
+//      We can create any type of ArrayList <give the type between>
+//      grades [i] == grades.get (i)
 
         ArrayList<Integer> grades = new ArrayList<>();
 
@@ -36,46 +52,45 @@ public class arrayList {
             System.out.println(gr);
         }
 
-//      grades [i] == grades.get (i)
-
-        grades.remove(1);
-
 //      - Remove element in the specified index,
 //      the coll. going to be resized automatically!
 
-        anyObject.add(12, "New thingy");
+        grades.remove(1);
 
-//      - Add element to the arraylist
+//      - Add element to the ArrayList
 
-        anyObject.set(12, "Even newer thingy");
+        myFirstListInJava.add(12, "New thingy");
 
-//      - Replace element in arraylist
+//      - Replace element in ArrayList
 
-        if (anyObject.contains('whatever')){
+        myFirstListInJava.set(12, "Even newer thingy");
+
+//      - We can check if the ArrayList contains a specific element,
+//      or we can check if it matches all the element of another ArrayList,
+//      or we can check if the ArrayList is empty or not
+//      !all methods going to return a boolean value!
+
+        if (myFirstListInJava.contains("whatever")){
             System.out.println("Yes");
         }
 
-        if (anyObject.containsAll(anyObjectCopy)){
-            System.out.println("Everything in anyObjectCopy is in anyObjext");
+        if (myFirstListInJava.containsAll(myFirstListInJavaCopy)){
+            System.out.println("Everything in myFirstListInJavaCopy is in anyObjext");
         }
 
-        if (anyObject.isEmpty()){
+        if (myFirstListInJava.isEmpty()){
             System.out.println("The list is empty");
         }
 
-//      - We can check if the arraylist contains a specific element,
-//      or we can check if it matches all the element of another arraylist,
-//      or we can check if the arraylist is empty or not
-//      !all methods going to return a boolean value!
+//      We can export any ArrayList into a simple array using .toArray function
 
-
-        Object [] moreObjects = new Object [4];
-        moreObjects = anyObjectCopy.toArray();
+        Object [] moreObjects = new Object [10];
+        moreObjects = myFirstListInJavaCopy.toArray();
 
         System.out.println(Arrays.toString(moreObjects));
-
-//      We can export any arraylist into a simple array using .toArray function
 
 
     }
 }
+
+
