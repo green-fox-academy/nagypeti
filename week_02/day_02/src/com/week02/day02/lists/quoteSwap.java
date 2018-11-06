@@ -4,19 +4,26 @@ import java.util.*;
 
 public class quoteSwap {
 
-    public static ArrayList quoteSwap (ArrayList<String> inputList){
-
-        ArrayList<String> swapped = inputList;
-
-        String temp = swapped.get(2);
-        swapped.set(2, swapped.get(5));
-        swapped.set(5, temp);
-
-        for (int i = 0; i < swapped.size() ; i++) {
-
-        }
-        return swapped;
-    }
+//    public static String quoteSwap(ArrayList inputList){
+//
+//        inputList.add(inputList.indexOf("do"), "cannot");
+//
+//        inputList.remove(inputList.indexOf("do"));
+//
+//        inputList.add(inputList.lastIndexOf("cannot"), "do");
+//
+//        inputList.remove(inputList.lastIndexOf("cannot"));
+//
+//        String result = "";
+//
+//        for (String element : inputList) {
+//            result = result + " " + element;
+//        }
+//
+//        result = result.trim();
+//
+//        return result;
+//    }
 
     public static void main(String[] args) {
 

@@ -2,142 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61098efc-269e-4e91-8ae8-0002b68dcbfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_01/day_02/topography.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_01/day_03/cli_commands.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_01/day_03/git_commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/java_basics.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/ConditionalVariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/OddEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/OneTwoALot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/PartyIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Conditionals/PrintBigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/Hello0thers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HelloMe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/HelloWorld/HumptyDumpty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/CountFromTo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/FizzBuzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/IWontCheatOnTheExams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/MultipictaionTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/PrintEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawDiamond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawPyramid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/drawTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Loops/guessTheNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/CodingHours.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/IntroduceYourself.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Types/TwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/AnimalsAndLegs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/AvarageOfInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/HelloUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/UserInput/MileToKmConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/Cuboid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/DefineBasicInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/FavouriteNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/SecondInADay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/Swap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/VariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_01/src/com/week02/day01/Variables/bmi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaArrays.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaMethods.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/appendA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/colors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/compareLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/doubleItems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/Unique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/anagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/palindromeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/palindromeSarcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/hardOnes/sortThatList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/incrementElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/printElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/reverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/sumAllElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/sumElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/swapElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/arrays/third.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/appendA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/doubling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/greeterFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/printArguments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/functions/summing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/arrayBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/classAndLocalVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day_02/com/week02/day02/materialPractice/deBugging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/appendA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/changeElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/colors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/compareLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/doubleItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/anagram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeSarcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/sortThatList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/unique.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/incrementElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/printElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/sumAllElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/sumElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/swapElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/third.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/appendA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/doubling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/greeterFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/printArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/functions/summing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/arrayBasics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/classAndLocalVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/deBugging.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/materialPractice/methods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/day_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_01/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/day_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/appendLetter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/candyShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/elementFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/isInList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/matchMaking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/quoteSwap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/lists/solarSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/arrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/hashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/practice/practiceStringMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/simpleReplace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/takesLonger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/toDoPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/src/com/week02/day02/strings/urlFixer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,61 +52,36 @@
     <session id="-1398718093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="172" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="172" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/arrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -281,6 +124,9 @@
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/solarSystem.java" />
         <option value="$PROJECT_DIR$/src/com/week03/day02/lists/calculator.java" />
         <option value="$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java" />
       </list>
     </option>
   </component>
@@ -291,10 +137,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -304,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,17 +162,38 @@
               <item name="day_02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="week02_day02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week02_day02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week02_day02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541523453877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541537136850" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week_01/day_03" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -345,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.calculator">
+  <component name="RunManager" selected="Application.quoteSwap (1)">
     <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.calculator" />
       <module name="week02_day02" />
@@ -359,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.isInList" />
+    <configuration name="candyShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week02.day02.lists.candyShop" />
       <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week03.day02.lists.*" />
+          <option name="PATTERN" value="com.week02.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,12 +238,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quoteSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week03.day02.lists.quoteSwap" />
+    <configuration name="elementFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week02.day02.lists.elementFinder" />
       <module name="week02_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.week03.day02.lists.*" />
+          <option name="PATTERN" value="com.week02.day02.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quoteSwap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.week02.day02.lists.quoteSwap" />
+      <module name="week02_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.week02.day02.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,33 +277,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toDoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.week03.day02.strings.toDoPrint" />
-      <module name="week02_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.week03.day02.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.toDoPrint" />
-      <item itemvalue="Application.isInList" />
-      <item itemvalue="Application.quoteSwap" />
       <item itemvalue="Application.solarSystem" />
       <item itemvalue="Application.calculator" />
+      <item itemvalue="Application.elementFinder" />
+      <item itemvalue="Application.candyShop" />
+      <item itemvalue="Application.quoteSwap (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quoteSwap (1)" />
+        <item itemvalue="Application.candyShop" />
+        <item itemvalue="Application.elementFinder" />
         <item itemvalue="Application.calculator" />
         <item itemvalue="Application.solarSystem" />
-        <item itemvalue="Application.quoteSwap" />
-        <item itemvalue="Application.isInList" />
-        <item itemvalue="Application.toDoPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -449,16 +315,17 @@
       <workItem from="1541535560832" duration="4000" />
       <workItem from="1541535569189" duration="30000" />
       <workItem from="1541535750052" duration="50000" />
+      <workItem from="1541536244240" duration="1140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31995000" />
+    <option name="totallyTimeSpent" value="33135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +343,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -595,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/matchMaking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -616,10 +476,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/arrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="330">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/candyShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -628,25 +505,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/quoteSwap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="103">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/elementFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/practice/arrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/week02/day02/lists/calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="-1621">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

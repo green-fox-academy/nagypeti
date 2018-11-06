@@ -7,11 +7,10 @@ public class elementFinder {
 
     public static String containsSeven (ArrayList inputList) {
 
-        int isTheListContains = 7;
         String toReturn= "";
 
         for (int i = 0; i < inputList.size(); i++) {
-            if (inputList.get(i).equals(isTheListContains)){
+            if (inputList.get(i).equals(7)){
                 toReturn = "Hoorray";
             } else {
                 toReturn = "Noooooo";
@@ -19,6 +18,22 @@ public class elementFinder {
         }
         return toReturn;
     }
+
+//    public static String containsSeven1 (ArrayList inputList) {
+//        if (inputList.indexOf(7) >= 0) {
+//            return "Hoorray";
+//        } else {
+//            return "Noooooo";
+//        }
+//    }
+
+//    public static String containsSeven2 (ArrayList inputList){
+//        if (inputList.contains(7)) {
+//            return "Hoorray";
+//        } else {
+//            return "Noooooo";
+//        }
+//    }
 
     public static void main(String[] args) {
 

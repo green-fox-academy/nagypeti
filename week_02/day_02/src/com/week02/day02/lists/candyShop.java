@@ -7,9 +7,10 @@ public class candyShop {
     public static ArrayList sweets (ArrayList inputList){
 
         for (int i = 0; i < inputList.size(); i++) {
-            if (i == 1){
+            Object toLook = inputList.get(i);
+            if (toLook.equals(2)){
                 inputList.set(i, "Croissant");
-            } else if (i == 3) {
+            } else if (toLook.equals(false)) {
                 inputList.set(i, "Ice cream");
             }
         }
