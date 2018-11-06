@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a45a8b-90de-4abe-966a-f56f680bf813" name="Default Changelist" comment="" />
+    <list default="true" id="14a45a8b-90de-4abe-966a-f56f680bf813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/day_02/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,26 +25,26 @@
     <session id="-1398718093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="9975" />
+          <entry key="java" value="9984" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9975" />
+          <entry key="JAVA" value="9984" />
           <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
@@ -82,19 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-331">
-              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="220">
+              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -149,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/reverseList.java" />
         <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/asd.java" />
         <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java" />
+        <option value="$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java" />
       </list>
     </option>
   </component>
@@ -171,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +198,14 @@
               <item name="day_02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="hardOnes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,7 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -340,11 +344,12 @@
       <workItem from="1540987502701" duration="2226000" />
       <workItem from="1540994426711" duration="3778000" />
       <workItem from="1541064827868" duration="87000" />
+      <workItem from="1541509535863" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54794000" />
+    <option name="totallyTimeSpent" value="54880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +364,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49621212" visible="true" weight="0.15302013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49621212" visible="true" weight="0.15503356" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.147651" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,15 +635,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/hardOnes/palindromeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="220">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/week02/day02/arrays/matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="22">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
