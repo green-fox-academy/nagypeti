@@ -7,11 +7,10 @@ import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class purpleStep {
-    public static void mainDraw(Graphics graphics) {
 
+    public static void mainDraw(Graphics graphics) {
         int startPos = 10;
         int startSize = 10;
-
         for (int i = 0; i < 30; i++) {
             drawPurpleSquare(graphics, startPos,startSize);
             startPos += startSize;
@@ -19,12 +18,10 @@ public class purpleStep {
     }
 
     public static void drawPurpleSquare (Graphics graphics, int xyPos, int size){
-
         graphics.setColor(new Color(176, 78, 240));
         graphics.fillRect(xyPos,xyPos,size,size);
         graphics.setColor(Color.BLACK);
         graphics.drawRect(xyPos,xyPos,size,size);
-
     }
 
     static int WIDTH = 320;

@@ -9,14 +9,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class rainbowBoxFunction {
 
     public static void mainDraw(Graphics graphics) {
-        // Create a square drawing function that takes 2 parameters:
-        // The square size, and the fill color,
-        // and draws a square of that size and color to the center of the canvas.
-        // Create a loop that fills the canvas with rainbow colored squares.
-
         int maxSize = 320;
-//        int startSize = 20;
-
         for (int i = maxSize; i > 0; i--) {
             int ranColor = 1 + (int) (Math.random() * 255);
             drawSquare(graphics, maxSize, ranColor);
@@ -25,13 +18,10 @@ public class rainbowBoxFunction {
     }
 
     public static void drawSquare (Graphics graphics, int size, int color) {
-
         graphics.setColor(new Color(color, 1 + (int) (Math.random() * 255), 1 + (int) (Math.random() * 255)));
         graphics.fillRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);
-
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 

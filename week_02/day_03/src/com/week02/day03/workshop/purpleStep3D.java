@@ -1,18 +1,16 @@
 package com.week02.day03.workshop;
+
 import javax.swing.*;
+
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class purpleStep3D {
+
     public static void mainDraw(Graphics graphics) {
-
-        // Reproduce this:
-        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps/r3.png]
-
         int startPos = 10;
         int startSize = 10;
-
         for (int i = 0; i < 10; i++) {
             drawPurpleSquare(graphics, startPos,startSize);
             startPos += startSize;
@@ -21,15 +19,12 @@ public class purpleStep3D {
     }
 
     public static void drawPurpleSquare (Graphics graphics, int xyPos, int size){
-
         graphics.setColor(new Color(176, 78, 240));
         graphics.fillRect(xyPos,xyPos,size,size);
         graphics.setColor(Color.BLACK);
         graphics.drawRect(xyPos,xyPos,size,size);
-
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 

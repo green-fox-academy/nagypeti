@@ -8,27 +8,19 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class horizontalLines {
     public static void mainDraw(Graphics graphics) {
-        // Create a line drawing function that takes 2 parameters:
-        // The x and y coordinates of the line's starting point
-        // and draws a 50 long horizontal line from that point.
-        // Draw 3 lines with that function. Use loop for that.
-
         for (int i = 0; i < 3; i++) {
             drawFiftyPixelLine(graphics,1 + (int)(Math.random() * 321),1 + (int)(Math.random() * 321));
         }
     }
 
     public static void drawFiftyPixelLine (Graphics graphics, int xPosition, int yPosition) {
-
         if (xPosition >= 270) {
             graphics.drawLine(xPosition, yPosition, xPosition - 50, yPosition);
         } else {
             graphics.drawLine(xPosition, yPosition, xPosition + 50, yPosition);
         }
-
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 

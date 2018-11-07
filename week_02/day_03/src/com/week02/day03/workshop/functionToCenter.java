@@ -9,14 +9,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class functionToCenter {
 
     public static void mainDraw(Graphics graphics) {
-
-        // Create a line drawing function that takes 2 parameters:
-        // The x and y coordinates of the line's starting point
-        // and draws a line from that point to the center of the canvas.
-        // Fill the canvas with lines from the edges, every 20 px, to the center.
-
         int stepSize = 20;
-
         for (int i = 0; i <= WIDTH; i += stepSize) {
             for (int j = 0; j <= HEIGHT; j += stepSize) {
                 drawLinetoCenter(graphics, i, 0);
@@ -28,12 +21,10 @@ public class functionToCenter {
     }
 
     public static void drawLinetoCenter (Graphics graphics, int xPos, int yPos){
-
         graphics.setColor(Color.BLUE);
         graphics.drawLine(xPos,yPos,WIDTH/2,HEIGHT/2);
-
     }
-    // Don't touch the code below
+
     static int WIDTH = 320;
     static int HEIGHT = 320;
 

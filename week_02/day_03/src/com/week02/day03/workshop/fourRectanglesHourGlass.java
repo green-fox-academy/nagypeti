@@ -9,32 +9,23 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class fourRectanglesHourGlass {
 
     public static void mainDraw(Graphics graphics){
-        // draw four different size and color rectangles.
-        // avoid code duplication.
-
         for (int i = 0; i < 4; i++) {
             drawRectangle(graphics);
         }
-
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
     public static void drawRectangle (Graphics graphics){
-
         int xStartPos = 1 + (int)(Math.random() * 280);
         int xNextPos = 1 + (int)(Math.random() * 50);
         int [] xPosition = {xStartPos, xStartPos + xNextPos, xStartPos, xStartPos + xNextPos};
-
         int yStartPos = 1 + (int)(Math.random() * 280);
         int yNextPos = 1 + (int)(Math.random() * 50);
         int [] yPosition = {yStartPos, yStartPos, yStartPos + yNextPos, yStartPos + yNextPos};
-
         graphics.setColor(new Color(1 + (int)(Math.random() * 256),1 + (int)(Math.random() * 256), 1 + (int)(Math.random() * 256)));
         graphics.fillPolygon(xPosition,yPosition,4);
-
     }
 
     public static void main(String[] args) {

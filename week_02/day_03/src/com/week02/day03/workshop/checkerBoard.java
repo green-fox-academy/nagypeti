@@ -7,39 +7,33 @@ import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class checkerBoard {
+
     public static void mainDraw(Graphics graphics) {
-        // Fill the canvas with a checkerboard pattern.
-
         int startPosX = 0;
-        int startSize = 30;
-
-        for (int i = 0; i < WIDTH/startSize; i++) {
+        int startSize = 32;
+        for (int i = 0; i < WIDTH / startSize; i++) {
             int startPosY2 = 0;
-            for (int j = 0; j < HEIGHT/startSize; j++){
+            for (int j = 0; j < HEIGHT / startSize; j++) {
                 if (i % 2 == 0) {
                     if (j % 2 != 0) {
                         graphics.setColor(Color.BLACK);
-                        graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                     } else {
                         graphics.setColor(Color.WHITE);
-                        graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                     }
                 } else {
                     if (j % 2 == 0) {
                         graphics.setColor(Color.BLACK);
-                        graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                     } else {
                         graphics.setColor(Color.WHITE);
-                        graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                     }
                 }
+                graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                 startPosY2 += startSize;
             }
             startPosX += startSize;
         }
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
@@ -61,4 +55,13 @@ public class checkerBoard {
             mainDraw(graphics);
         }
     }
+
+
 }
+
+
+
+
+
+
+
