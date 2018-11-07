@@ -12,11 +12,10 @@ public class checkerBoard {
 
         int startPosX = 0;
         int startSize = 30;
-        int stepSize = startSize;
 
-        for (int i = 0; i < 10 ; i++) {
+        for (int i = 0; i < WIDTH/startSize; i++) {
             int startPosY2 = 0;
-            for (int j = 0; j < 10; j++){
+            for (int j = 0; j < HEIGHT/startSize; j++){
                 if (i % 2 == 0) {
                     if (j % 2 != 0) {
                         graphics.setColor(Color.BLACK);
@@ -34,9 +33,9 @@ public class checkerBoard {
                         graphics.fillRect(startPosX, startPosY2, startSize, startSize);
                     }
                 }
-                startPosY2 += stepSize;
+                startPosY2 += startSize;
             }
-            startPosX += stepSize;
+            startPosX += startSize;
         }
     }
 
