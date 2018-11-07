@@ -1,33 +1,31 @@
 package com.week02.day03.workshop;
-
 import javax.swing.*;
-
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class rainbowBoxFunction {
-
+public class purpleStep3D {
     public static void mainDraw(Graphics graphics) {
-        // Create a square drawing function that takes 2 parameters:
-        // The square size, and the fill color,
-        // and draws a square of that size and color to the center of the canvas.
-        // Create a loop that fills the canvas with rainbow colored squares.
 
-        int maxSize = 320;
-//        int startSize = 20;
+        // Reproduce this:
+        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps/r3.png]
 
-        for (int i = maxSize; i > 0; i--) {
-            int ranColor = 1 + (int) (Math.random() * 255);
-            drawSquare(graphics, maxSize, ranColor);
-            maxSize -= 5;
+        int startPos = 10;
+        int startSize = 10;
+
+        for (int i = 0; i < 10; i++) {
+            drawPurpleSquare(graphics, startPos,startSize);
+            startPos += startSize;
+            startSize += startSize / 2;
         }
     }
 
-    public static void drawSquare (Graphics graphics, int size, int color) {
+    public static void drawPurpleSquare (Graphics graphics, int xyPos, int size){
 
-        graphics.setColor(new Color(color, 1 + (int) (Math.random() * 255), 1 + (int) (Math.random() * 255)));
-        graphics.fillRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);
+        graphics.setColor(new Color(176, 78, 240));
+        graphics.fillRect(xyPos,xyPos,size,size);
+        graphics.setColor(Color.BLACK);
+        graphics.drawRect(xyPos,xyPos,size,size);
 
     }
 
