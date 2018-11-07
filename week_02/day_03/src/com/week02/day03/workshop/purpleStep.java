@@ -9,9 +9,6 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class purpleStep {
     public static void mainDraw(Graphics graphics) {
 
-        // Reproduce this:
-        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps/r3.png]
-
         int startPos = 10;
         int startSize = 10;
 
@@ -30,7 +27,6 @@ public class purpleStep {
 
     }
 
-    // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
