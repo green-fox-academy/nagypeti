@@ -6,19 +6,24 @@ import javax.swing.*;
 
 public class drawing extends JPanel {
 
-    public void paintComponent (Graphics g){
+    public void paintComponent (Graphics graphics){
 
-        super.paintComponent(g);
+        super.paintComponent(graphics);
         this.setBackground(Color.WHITE);
 
-        g.setColor(Color.BLUE);
-        g.fillRect(25, 25,100,30);
+        graphics.setColor(Color.BLUE);
+        graphics.fillRect(25, 25,100,30);
 
-        g.setColor(new Color(190, 81, 215));
-        g.fillRect(25,65,100,30);
+        graphics.setColor(new Color(190, 81, 215));
+        graphics.fillRect(25,65,100,30);
 
-        g.setColor(Color.RED);
-        g.drawString("This is some MiGHTy TeXT!",25, 120);
+        graphics.setColor(Color.RED);
+        graphics.drawString("This is some MiGHTy TeXT!",25, 120);
+
+        int [] xPoints = {10, 110, 110, 10};
+        int [] yPoints = {10, 10, 110, 110};
+        graphics.drawPolygon(xPoints, yPoints, 4);   // Draw a polygon (with 'n' number edge points),
+                                                            // Always going to be a closed object
 
     }
 
@@ -33,3 +38,8 @@ public class drawing extends JPanel {
 
     }
 }
+
+//  Immediate mode vs. Retained mode
+//      - immediate:
+//      - retained:
+
