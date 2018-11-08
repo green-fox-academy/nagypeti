@@ -35,7 +35,7 @@ public class quoteSwap {
         // Create a method called quoteSwap().
 
         // Also, print the sentence to the output with spaces in between.
-        System.out.println(quoteSwap(list));
+//        System.out.println(quoteSwap(list));
         // Expected output: "What I cannot create I do not understand."
 
     }
