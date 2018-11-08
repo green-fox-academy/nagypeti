@@ -9,7 +9,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class envelopeStarSecondTry {
 
   public static void mainDraw(Graphics g){
-    star(g); 
+    star(g);
   }
 
   public static void star (Graphics g){
