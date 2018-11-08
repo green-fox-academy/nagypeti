@@ -4,19 +4,21 @@ public class drawChessTable {
 
     public static void main(String[] args) {
 
+        drawChessBoard(8);
 
-        // Crate a program that draws a chess table like this
-//
-// % % % %
-//  % % % %
-// % % % %
-//  % % % %
-// % % % %
-//  % % % %
-// % % % %
-//  % % % %
-//
+    }
 
+    public static void drawChessBoard (int height ){
 
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < height / 2; j++) {
+                if (i % 2 == 0) {
+                    System.out.print("% ");
+                } else {
+                    System.out.print(" %");
+                }
+            }
+            System.out.println();
+        }
     }
 }
