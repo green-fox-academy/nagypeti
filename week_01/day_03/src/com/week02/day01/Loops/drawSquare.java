@@ -8,6 +8,7 @@ public class drawSquare {
 
         System.out.println("Give a number: ");
         Scanner input = new Scanner(System.in);
+        
         int favNum = input.nextInt();
         drawSquare(favNum);
 
