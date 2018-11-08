@@ -1,7 +1,7 @@
 package com.week02.day03.practice;
 
 import java.awt.*;
-import java.awt.event.*;
+
 import javax.swing.*;
 
 public class drawing extends JPanel {
