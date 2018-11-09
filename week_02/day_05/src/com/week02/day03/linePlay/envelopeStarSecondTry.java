@@ -9,39 +9,17 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class envelopeStarSecondTry {
 
   public static void mainDraw(Graphics g){
-    star(g);
+    int step = 10;
+    star(g, step);
   }
 
-  public static void star (Graphics g){
-    int step = 10;
-    g.setColor(Color.GREEN);
-    //  Left-upper corner
-    int x1 = WIDTH/2;
-    int y1 = 0;
-    //  Left-down corner
-    int x2 = 0;
-    int y2 = HEIGHT/2;
-    //  Right-down corner
-    int x3 = WIDTH;
-    int y3 = HEIGHT/2;
-    // Right-upper corner
-    int x4 = WIDTH/2;
-    int y4 = 0;
-    // Drawing method
-    for (int i = 0; i <= HEIGHT/(step * 2); i++) {
+  public static void star (Graphics g, int stepSize){
+    for (int i = 0; i <= HEIGHT/2; i += stepSize) {
       g.setColor(new Color(randomRgbColor(), randomRgbColor(), randomRgbColor()));
-      g.drawLine(WIDTH/2,y1,x1,HEIGHT/2);
-      g.drawLine(WIDTH/2,y2,x2,HEIGHT/2);
-      g.drawLine(WIDTH/2,y3,x3,HEIGHT/2);
-      g.drawLine(WIDTH/2,y4,x4,HEIGHT/2);
-      y1 += step;
-      x1 -= step;
-      y2 += step;
-      x2 += step;
-      y3 += step;
-      x3 -= step;
-      y4 += step;
-      x4 += step;
+      g.drawLine(WIDTH/2,      i ,            (WIDTH/2) - i, HEIGHT/2);
+      g.drawLine(WIDTH/2,  (HEIGHT/2) + i,    i,             HEIGHT/2);
+      g.drawLine(WIDTH/2,  (HEIGHT/2) + i, WIDTH - i,    HEIGHT/2);
+      g.drawLine(WIDTH/2,      i,             (WIDTH/2) + i, HEIGHT/2);
     }
   }
 

@@ -9,21 +9,20 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class linePlay_4_16_64 {
 
   public static void mainDraw(Graphics g){
-
-    int divider = 16;
+    int divider = 4;
     curveFromLines(g, divider);
-
   }
 
   public static void curveFromLines (Graphics g, int divider){
+
     int countDiv = divider / 2;
-    int stepBasic = 10;
+    int stepBasic = 20;
     int step = stepBasic / countDiv;
     int incrementY = 0;
     int incrementY2 = (HEIGHT/countDiv);
 
     for (int i = 0; i < countDiv; i++) {
-      int incrementX = WIDTH/ countDiv;
+      int incrementX = WIDTH/countDiv;
       int y1 = incrementY;
       for (int j = 0; j < countDiv; j++) {
         int x1 = incrementX;
@@ -42,8 +41,8 @@ public class linePlay_4_16_64 {
     }
   }
 
-  static int WIDTH = 800;
-  static int HEIGHT = 800;
+  static int WIDTH = 320;
+  static int HEIGHT = 320;
 
   public static void main(String[] args) {
     JFrame jFrame = new JFrame("Drawing");
