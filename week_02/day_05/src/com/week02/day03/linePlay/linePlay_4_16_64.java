@@ -28,11 +28,9 @@ public class linePlay_4_16_64 {
         int x1 = incrementX;
         int x2 = incrementX;
         int y2 = incrementY2;
-        for (int k = 0; k < WIDTH/stepBasic; k++) {
+        for (int k = 0; k < WIDTH/countDiv; k += step) {
           g.setColor(Color.MAGENTA);
-          g.drawLine(x1,y1,x2,y2);
-          x1 -= step;
-          y2 -= step;
+          g.drawLine(x1 - k,y1,x2,y2 - k);
         }
         incrementX += WIDTH/countDiv;
       }
