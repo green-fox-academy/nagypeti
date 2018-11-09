@@ -29,6 +29,7 @@ public class envelopeStarSecondTry {
     int y4 = 0;
     // Drawing method
     for (int i = 0; i <= HEIGHT/(step * 2); i++) {
+      g.setColor(new Color(randomRgbColor(), randomRgbColor(), randomRgbColor()));
       g.drawLine(WIDTH/2,y1,x1,HEIGHT/2);
       g.drawLine(WIDTH/2,y2,x2,HEIGHT/2);
       g.drawLine(WIDTH/2,y3,x3,HEIGHT/2);
@@ -44,8 +45,13 @@ public class envelopeStarSecondTry {
     }
   }
 
-  static int WIDTH = 320;
-  static int HEIGHT = 320;
+  public static int randomRgbColor () {
+    int randomColor = 1 + (int) (Math.random() * 255);
+    return randomColor;
+  }
+
+  static int WIDTH = 640;
+  static int HEIGHT = 640;
 
   public static void main(String[] args) {
     JFrame jFrame = new JFrame("Drawing");
