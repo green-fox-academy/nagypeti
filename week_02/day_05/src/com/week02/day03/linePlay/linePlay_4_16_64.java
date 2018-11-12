@@ -17,7 +17,6 @@ public class linePlay_4_16_64 {
 
     int countDiv = divider / 2;
     int stepBasic = 20;
-    int step = stepBasic / countDiv;
     int incrementY = 0;
     int incrementY2 = (HEIGHT/countDiv);
 
@@ -28,7 +27,7 @@ public class linePlay_4_16_64 {
         int x1 = incrementX;
         int x2 = incrementX;
         int y2 = incrementY2;
-        for (int k = 0; k < WIDTH/countDiv; k += step) {
+        for (int k = 0; k < WIDTH/countDiv; k += stepBasic/countDiv) {
           g.setColor(Color.MAGENTA);
           g.drawLine(x1 - k,y1,x2,y2 - k);
         }
