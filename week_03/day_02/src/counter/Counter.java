@@ -2,7 +2,6 @@ package counter;
 
 public class Counter {
 
-
   int counter;
   int resetPoint;
 
