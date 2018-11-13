@@ -16,7 +16,7 @@ public class FleetOfThings {
     fleet.add(remove);
     fleet.add(stand);
     fleet.add(eat);
-    
+
     // Create a fleet of things to have this output:
     // 1. [ ] Get milk
     // 2. [ ] Remove the obstacles
