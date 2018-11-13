@@ -1,4 +1,4 @@
-package com.week03.day02.practice;
+package com.week03.day02.practice; // Packages are the collection of java classes
 
 public class Human {
 
