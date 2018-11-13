@@ -9,6 +9,4 @@ public class Station {
     Car.gasAmount = Car.gasAmount + Car.capacity;
   }
 
-
-
 }
