@@ -2,8 +2,8 @@ package animal;
 
 public class Animal {
 
-  int hunger;
-  int thirst;
+  public int hunger;
+  public int thirst;
 
   public Animal () {
     this(50,50);
