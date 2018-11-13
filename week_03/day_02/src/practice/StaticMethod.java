@@ -1,4 +1,4 @@
-package com.week03.day02.practice;
+package practice;
 
 public class StaticMethod {
 

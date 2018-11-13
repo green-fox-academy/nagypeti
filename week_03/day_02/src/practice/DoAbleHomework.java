@@ -1,4 +1,4 @@
-package com.week03.day02.practice;
+package practice;
 
 import java.util.ArrayList;
 import java.util.HashMap;

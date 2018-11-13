@@ -1,16 +1,6 @@
-package com.week03.day02.post.it;
+package post;
 
-public class PostIt {
-
-  String backgroundColor;
-  String text;
-  String textColor;
-
-  PostIt (String backgroundColor, String text, String textColor) {
-    this.backgroundColor = backgroundColor;
-    this.text = text;
-    this.textColor = textColor;
-  }
+public class Main {
 
   public static void main(String[] args) {
 
@@ -21,10 +11,5 @@ public class PostIt {
     System.out.println(postIt1.backgroundColor + " " + postIt1.textColor + " " + postIt1.text);
     System.out.println(postIt2.backgroundColor + " " + postIt2.textColor + " " + postIt2.text);
     System.out.println(postIt3.backgroundColor + " " + postIt3.textColor + " " + postIt3.text);
-
-
   }
-
 }
-
-
