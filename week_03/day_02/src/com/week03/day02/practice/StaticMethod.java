@@ -1,6 +1,6 @@
 package com.week03.day02.practice;
 
-public class staticMethod {
+public class StaticMethod {
 
   public static void main(String[] args) {
 

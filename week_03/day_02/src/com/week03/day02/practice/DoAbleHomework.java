@@ -3,7 +3,7 @@ package com.week03.day02.practice;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class doAbleHomework {
+public class DoAbleHomework {
 
   public static void main(String[] args) {
     HashMap<String, String> tree1 = new HashMap<>();

@@ -33,7 +33,4 @@ public class Human {
       System.out.println("I will walk five hundred miles, and I will walk five hundred more!");
     }
 
-  }
-
-t
 }
