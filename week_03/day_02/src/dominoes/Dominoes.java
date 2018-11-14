@@ -23,12 +23,13 @@ public class Dominoes {
     return dominoes;
   }
 
-  public static List<Domino> dominoOrganizer (List<Domino> inputList) {
+  public static List<Domino> dominoOrganizer(List<Domino> inputList) {
 
     List<Domino> organizedDominoes = new ArrayList<>();
     organizedDominoes.add(inputList.get(0));
 
     int j = 0;
+
     while (organizedDominoes.size() < inputList.size()) {
       for (int i = 0; i < inputList.size(); i++) {
         if (organizedDominoes.get(j).getRightSide() == inputList.get(i).getLeftSide()) {
@@ -37,7 +38,6 @@ public class Dominoes {
         }
       }
     }
-
     return organizedDominoes;
   }
 }
