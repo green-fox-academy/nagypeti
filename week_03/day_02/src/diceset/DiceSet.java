@@ -1,5 +1,4 @@
 package diceset;
-import java.util.Arrays;
 
 public class DiceSet {
   // You have a `DiceSet` class which has a list for 6 dices

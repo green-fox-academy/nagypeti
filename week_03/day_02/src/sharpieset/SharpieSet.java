@@ -7,9 +7,9 @@ public class SharpieSet {
 
   List<Sharpie> newList;
 
-  public int countUsable () {
+  public int countUsable() {
     int countUsable = 0;
-    for (Sharpie item : newList){
+    for (Sharpie item : newList) {
       if (item.inkAmount > 0) {
         countUsable++;
       }
@@ -17,7 +17,7 @@ public class SharpieSet {
     return countUsable;
   }
 
-  public void removeTrash () {
+  public void removeTrash() {
     for (Sharpie item : newList) {
       if (item.inkAmount == 0) {
         newList.remove(item);
