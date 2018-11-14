@@ -29,7 +29,7 @@ public class Dominoes {
     organizedDominoes.add(inputList.get(0));
 
     int j = 0;
-    while (organizedDominoes.size() <= 5) {
+    while (organizedDominoes.size() < inputList.size()) {
       for (int i = 0; i < inputList.size(); i++) {
         if (organizedDominoes.get(j).getRightSide() == inputList.get(i).getLeftSide()) {
           organizedDominoes.add(inputList.get(i));
