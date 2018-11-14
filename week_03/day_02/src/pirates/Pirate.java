@@ -49,7 +49,7 @@ public class Pirate {
 
   public void brawl(Pirate pirateToFightWith) {
     int randomChance = (int) (1 + (Math.random() * 3));
-    if (!this.isDead && !pirateToFightWith.isDead) {
+    if (!(this.isDead | pirateToFightWith.isDead)) {
       if (randomChance == 1) {
         this.isDead = true;
       } else if (randomChance == 2) {
