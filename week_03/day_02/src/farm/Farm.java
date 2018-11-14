@@ -7,17 +7,17 @@ public class Farm {
 
   List<Animal> animalsInTheFarm;
 
-  int freePlaces;
+  private int freePlaces;
 
-  public void breed () {
-    if (freePlaces > 0){
+  public void breed() {
+    if (freePlaces > 0) {
       animalsInTheFarm.add(new Animal());
     }
   }
 
-  public void slaugther () {
+  public void slaugther() {
     int hungerMax = 0;
-    for (int i=0; i<animalsInTheFarm.size(); i++){
+    for (int i = 0; i < animalsInTheFarm.size(); i++) {
       if (animalsInTheFarm.get(i).hunger > hungerMax) {
         hungerMax = i;
       }

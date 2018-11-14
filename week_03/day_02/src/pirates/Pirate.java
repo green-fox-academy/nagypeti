@@ -12,9 +12,9 @@ and there's a 1/3 chance, 1 dies, the other dies or they both pass out.
 
 public class Pirate {
 
-  private int drunkOMeter;
-  private boolean passedOut;
-  private boolean isDead;
+  int drunkOMeter;
+  boolean passedOut;
+  boolean isDead;
 
   public Pirate() {
     this.drunkOMeter = 0;
@@ -23,7 +23,7 @@ public class Pirate {
   }
 
   public void drinkSomeRum() {
-    if (isDead) {
+    if (this.isDead) {
       System.out.println("This f*cker is dead");
     } else if (this.passedOut) {
       this.drunkOMeter = 0;
@@ -59,6 +59,23 @@ public class Pirate {
         pirateToFightWith.passedOut = true;
       }
     }
+  }
+
+  public String status() {
+    String passedOut = "";
+    String deadOrAlive = "";
+
+    if (this.isDead) {
+      deadOrAlive = "dead!";
+    } else {
+      deadOrAlive = "alive";
+      if (this.passedOut) {
+        passedOut = " and passed out!";
+      } else {
+        passedOut = " and awake.";
+      }
+    }
+    return deadOrAlive + passedOut;
   }
 
 
