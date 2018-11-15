@@ -12,10 +12,8 @@ public class Bunny1 {
   }
 
   public static int earCounter(int nrOfAnimals, int nrOfEarPerAnimal) {
-
     if (nrOfAnimals < 1)
       return 0;
-
     return earCounter(nrOfAnimals -1, nrOfEarPerAnimal) + nrOfEarPerAnimal;
   }
 
