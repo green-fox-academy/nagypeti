@@ -13,7 +13,6 @@ public class String3 {
   }
 
   public static String replaceAdjacent(String input, int length) {
-
     if (length > 1) {
       input = input.substring(0,length-1).concat("*").concat(input.substring(length-1));
       return replaceAdjacent(input, length - 1);
