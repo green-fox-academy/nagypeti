@@ -74,6 +74,6 @@ public class Ship {
     return battle;
   }
 
-  public void
+//  public void
 
 }
