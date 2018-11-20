@@ -2,25 +2,22 @@ package greenfoxorganization;
 
 public class Student extends Person {
 
-  private String previousOrganization;
-  private int skippedDays;
+  private String previousOrganization = "The School of Life";
+  private int skippedDays = 0;
 
   public Student() {
-    this("Jane Doe", 30, "female", "The School of Life");
+    super();
   }
 
   public Student(String name, int age, String gender, String previousOrganization) {
-    this.name = name;
-    this.gender = gender;
-    this.age = age;
+    super(name, age, gender);
     this.previousOrganization = previousOrganization;
-    this.skippedDays = 0;
   }
 
   public void introduce() {
-    System.out.println("Hi, I'm " + name + ", a " + age + " year old " + gender
-            + " from " + previousOrganization + " who skipped " + skippedDays
-            + " days from the course already.");
+    super.introduce();
+    System.out.println(" from " + previousOrganization + " who skipped "
+            + skippedDays + " days from the course already.");
   }
 
   public void getGoal() {

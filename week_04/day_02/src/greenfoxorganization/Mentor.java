@@ -2,22 +2,21 @@ package greenfoxorganization;
 
 public class Mentor extends Person {
 
-  String level;
+  private String level;
 
   public Mentor() {
-    this("Jane Doe", 30, "female", "intermediate");
+    super();
+    this.level = "intermediate";
   }
 
   public Mentor(String name, int age, String gender, String level) {
-    this.name = name;
-    this.gender = gender;
-    this.age = age;
+    super(name,age,gender);
     this.level = level;
   }
 
   public void introduce() {
-    System.out.println("Hi, I'm " + name + ", a " + age + " year old "
-            + gender + level + " mentor.");
+    super.introduce();
+    System.out.println(" " + level + " mentor.");
   }
 
   public void getGoal() {

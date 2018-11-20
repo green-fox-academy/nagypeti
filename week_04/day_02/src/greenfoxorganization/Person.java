@@ -2,9 +2,9 @@ package greenfoxorganization;
 
 public class Person {
 
-  String name;
-  String gender;
-  int age;
+  protected String name;
+  protected String gender;
+  protected int age;
 
   public Person() {
     this("Jane Doe", 30, "female");
@@ -17,10 +17,11 @@ public class Person {
   }
 
   public void introduce() {
-    System.out.println("Hi, I'm " + name + ", a " + age + " year old " + gender + ".");
+    System.out.print("Hi, I'm " + name + ", a " + age + " year old " + gender);
   }
 
   public void getGoal() {
+    System.out.println();
     System.out.println("My goal is: Live for the moment!");
   }
 

@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Cohort {
 
-  String name;
-  List<Student> students;
-  List<Mentor> mentors;
+  protected String name;
+  protected List<Student> students;
+  protected List<Mentor> mentors;
 
   public Cohort(String name) {
     this.name = name;
