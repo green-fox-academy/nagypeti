@@ -5,47 +5,37 @@ import java.util.List;
 
 public class Garden {
 
-  List<Flower> listOfFlowers;
-  List<Tree> listOfTrees;
-  String color;
-  double waterLevel;
+  List<Plants> listOfPlants;
 
-
-  Garden() {
-    listOfFlowers = new ArrayList<>();
-    listOfTrees = new ArrayList<>();
+  public Garden() {
+    listOfPlants = new ArrayList<>();
   }
 
   public void wateringPlants(int waterWithAmount) {
 
-    waterWithAmount = waterWithAmount / listOfTrees.size() + listOfFlowers.size();
+    waterWithAmount = waterWithAmount / listOfPlants.size();
 
-    for (Flower flower : listOfFlowers) {
-      if (flower.waterLevel < 5) {
-        flower.waterLevel = waterWithAmount * 0.75 ;
-      }
-    }
-    for (Tree tree : listOfTrees) {
-      if (tree.waterLevel < 10) {
-        tree.waterLevel = waterWithAmount * 0.4 ;
+    for (Plants plant : listOfPlants) {
+      if (plant instanceof Flower && plant.waterLevel < plant.waterLevelMax) {
+        plant.wateringPlant(waterWithAmount);
+      } else if (plant.waterLevel < plant.waterLevelMax) {
+        plant.wateringPlant(waterWithAmount);
       }
     }
 
   }
 
   public void getGardenStatus() {
-    for (Flower flower : listOfFlowers) {
-      if (flower.waterLevel < 5) {
-        System.out.println("The " + flower.color + " needs water.");
+
+    for (Plants plant : listOfPlants) {
+      if (plant instanceof Flower && plant.waterLevel < plant.waterLevelMax) {
+        System.out.println("The " + plant.color + " flower needs water.");
+      } else if (plant instanceof Tree && plant.waterLevel < plant.waterLevelMax){
+        System.out.println("The " + plant.color + " tree needs water.");
+      } else if (plant instanceof Flower && plant.waterLevel > plant.waterLevelMax) {
+        System.out.println("The " + plant.color + " flower doesn't needs water.");
       } else {
-        System.out.println("The " + flower.color + " doesn't needs water.");
-      }
-    }
-    for (Tree tree : listOfTrees) {
-      if (tree.waterLevel < 10) {
-        System.out.println("The " + tree.color + " needs water.");
-      } else {
-        System.out.println("The " + tree.color + " doesn't needs water.");
+        System.out.println("The " + plant.color + " tree doesn't needs water.");
       }
     }
 
