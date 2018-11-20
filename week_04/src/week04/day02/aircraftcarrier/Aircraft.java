@@ -38,4 +38,12 @@ public class Aircraft {
     return fillAmmo - (this.maxAmmo - currentAmmo);
   }
 
+  public boolean isPriority() {
+    if (this.type.equals("F16")){
+      return false;
+    } else {
+      return true;
+    }
+  }
+
 }
