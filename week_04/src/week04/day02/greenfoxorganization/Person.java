@@ -1,4 +1,4 @@
-package greenfoxorganization;
+package week04.day02.greenfoxorganization;
 
 public class Person {
 

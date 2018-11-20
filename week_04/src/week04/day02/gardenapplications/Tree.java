@@ -1,4 +1,4 @@
-package gardenapplications;
+package week04.day02.gardenapplications;
 
 public class Tree extends Plants {
 

@@ -1,4 +1,4 @@
-package gardenapplications;
+package week04.day02.gardenapplications;
 
 import java.util.ArrayList;
 import java.util.List;
