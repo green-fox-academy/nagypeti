@@ -21,6 +21,14 @@ public class Aircraft {
     this.type = type;
   }
 
+  public int getAmmo() {
+    return ammo;
+  }
+
+  public int getBaseDamage() {
+    return baseDamage;
+  }
+
   public String getStatus() {
     return "Type " + getType() + ", Ammo: " + ammo + ", Base dmg: "
             + baseDamage + ", All dmg: " + (ammo * baseDamage);
@@ -39,7 +47,7 @@ public class Aircraft {
   }
 
   public boolean isPriority() {
-    if (this.type.equals("F16")){
+    if (this.type.equals("F16")) {
       return false;
     } else {
       return true;
