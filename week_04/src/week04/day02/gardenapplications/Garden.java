@@ -13,7 +13,15 @@ public class Garden {
 
   public void wateringPlants(int waterWithAmount) {
 
-    waterWithAmount = waterWithAmount / listOfPlants.size();
+    int needsWater = 0;
+
+    for (Plants plant : listOfPlants) {
+      if (plant.waterLevel < plant.waterLevelMax) {
+        needsWater++;
+      }
+    }
+
+    waterWithAmount = waterWithAmount / needsWater;
 
     for (Plants plant : listOfPlants) {
       if (plant instanceof Flower && plant.waterLevel < plant.waterLevelMax) {
