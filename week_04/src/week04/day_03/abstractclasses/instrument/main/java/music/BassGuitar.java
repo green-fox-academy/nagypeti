@@ -10,16 +10,11 @@ public class BassGuitar extends StringedInstrument {
 
   public BassGuitar(int nrOfStrings) {
     this.numberOfStrings = nrOfStrings;
+    this.name = "Bass Guitar";
   }
 
   public String sound() {
     return "Duum-duum-duum";
-  }
-
-  @Override
-  public void play() {
-    System.out.println("Bass Guitar, a " + this.numberOfStrings
-            + "-stringed instrument that goes " + this.sound());
   }
 
 }

@@ -8,16 +8,11 @@ public class ElectricGuitar extends StringedInstrument {
 
   public ElectricGuitar(int nrOfStrings) {
     this.numberOfStrings = nrOfStrings;
+    this.name = "Electric Guitar";
   }
 
   public String sound() {
     return "Twang";
-  }
-
-  @Override
-  public void play() {
-    System.out.println("Electric Guitar, a " + this.numberOfStrings
-            + "-stringed instrument that goes " + this.sound());
   }
 
 }

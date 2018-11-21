@@ -8,16 +8,11 @@ public class Violin extends StringedInstrument {
 
   public Violin(int nrOfStrings) {
     this.numberOfStrings = nrOfStrings;
+    this.name = "Violin";
   }
 
   public String sound() {
     return "Screech";
-  }
-
-  @Override
-  public void play() {
-    System.out.println("Violin, a " + this.numberOfStrings
-            + "-stringed instrument that goes " + this.sound());
   }
 
 }
