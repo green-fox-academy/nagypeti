@@ -1,6 +1,8 @@
 package week04.day_03.usinganinterface.compareable;
 
-public class Domino implements Comparable<Domino> {
+import week04.day_03.interfaces.printable.Printable;
+
+public class Domino implements Comparable<Domino>, Printable {
   private final int left;
   private final int right;
 
@@ -30,4 +32,8 @@ public class Domino implements Comparable<Domino> {
     return 1;
   }
 
+  @Override
+  public void printAllFields() {
+    System.out.println(getRightSide() + getLeftSide());
+  }
 }

@@ -1,6 +1,6 @@
 package week04.day_03.abstractclasses.zoo.animals;
 
-import week04.day_03.interfaces.flyable.flyable.Flyable;
+import week04.day_03.interfaces.flyable.Flyable;
 
 public class Bird extends EggLayers implements Flyable {
 

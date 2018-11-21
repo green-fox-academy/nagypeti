@@ -1,6 +1,8 @@
 package week04.day_03.usinganinterface.compareable;
 
-public class Thing implements Comparable<Thing> {
+import week04.day_03.interfaces.printable.Printable;
+
+public class Thing implements Comparable<Thing>, Printable {
 
   private String name;
   private boolean completed;
@@ -29,5 +31,9 @@ public class Thing implements Comparable<Thing> {
     return this.name.compareTo(o.name);
   }
 
+  @Override
+  public void printAllFields() {
+
+  }
 }
 
