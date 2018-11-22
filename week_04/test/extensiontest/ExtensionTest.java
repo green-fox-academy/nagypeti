@@ -1,3 +1,5 @@
+package extensiontest;
+
 import day04.extension.Extension;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;

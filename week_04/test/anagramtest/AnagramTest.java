@@ -1,3 +1,5 @@
+package anagramtest;
+
 import day04.anagram.Anagram;
 import org.junit.jupiter.api.Test;
 

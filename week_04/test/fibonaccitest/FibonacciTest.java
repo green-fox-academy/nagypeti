@@ -1,3 +1,5 @@
+package fibonaccitest;
+
 import day04.fibonacci.Fibonacci;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

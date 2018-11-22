@@ -1,3 +1,5 @@
+package countletterstest;
+
 import day04.countletters.CountLetters;
 import org.junit.jupiter.api.Test;
 
