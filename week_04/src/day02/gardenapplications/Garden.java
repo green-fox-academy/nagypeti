@@ -11,7 +11,7 @@ public class Garden {
     listOfPlants = new ArrayList<>();
   }
 
-  public void wateringPlants(int waterWithAmount) {
+  public int sumPlantNeedsWater() {
 
     int needsWater = 0;
 
@@ -21,7 +21,12 @@ public class Garden {
       }
     }
 
-    waterWithAmount = waterWithAmount / needsWater;
+    return needsWater;
+  }
+
+  public void wateringPlants(int waterWithAmount) {
+
+    waterWithAmount /= sumPlantNeedsWater();
 
     for (Plants plant : listOfPlants) {
       if (plant instanceof Flower && plant.waterLevel < plant.waterLevelMax) {
@@ -36,14 +41,12 @@ public class Garden {
   public void getGardenStatus() {
 
     for (Plants plant : listOfPlants) {
-      if (plant instanceof Flower && plant.waterLevel < plant.waterLevelMax) {
-        System.out.println("The " + plant.color + " flower needs water.");
-      } else if (plant instanceof Tree && plant.waterLevel < plant.waterLevelMax){
-        System.out.println("The " + plant.color + " tree needs water.");
-      } else if (plant instanceof Flower && plant.waterLevel > plant.waterLevelMax) {
-        System.out.println("The " + plant.color + " flower doesn't needs water.");
+      if (plant.waterLevel < plant.waterLevelMax) {
+        System.out.println("The " + plant.color + " "
+                + plant.getClass().getSimpleName().toLowerCase() + " needs water.");
       } else {
-        System.out.println("The " + plant.color + " tree doesn't needs water.");
+        System.out.println("The " + plant.color + " "
+                + plant.getClass().getSimpleName().toLowerCase() + " doesn't needs water.");
       }
     }
 
