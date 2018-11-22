@@ -2,27 +2,29 @@ package day02.aircraftcarrier;
 
 public class Aircraft {
 
+  enum Model { F16, F18, F35 }
+
   private int baseDamage;
   private int maxAmmo;
-  private int ammo;
-  private String type;
+  private int currentAmmo;
+  private Model type;
 
   Aircraft(int maxAmmo, int baseDamage) {
     this.maxAmmo = maxAmmo;
     this.baseDamage = baseDamage;
-    this.ammo = 0;
+    this.currentAmmo = 0;
   }
 
-  public String getType() {
-    return type;
-  }
-
-  protected void setType(String type) {
+  public void setType(Model type) {
     this.type = type;
   }
 
-  public int getAmmo() {
-    return ammo;
+  public Model getType() {
+    return type;
+  }
+
+  public int getCurrentAmmo() {
+    return currentAmmo;
   }
 
   public int getBaseDamage() {
@@ -30,27 +32,29 @@ public class Aircraft {
   }
 
   public String getStatus() {
-    return "Type " + getType() + ", Ammo: " + ammo + ", Base dmg: "
-            + baseDamage + ", All dmg: " + (ammo * baseDamage);
+    return "Type " + getClass().getSimpleName()
+            + ", Ammo: " + currentAmmo
+            + ", Base dmg: " + baseDamage
+            + ", All dmg: " + (currentAmmo * baseDamage);
   }
 
   public int fight() {
-    int allDamage = this.ammo * this.baseDamage;
-    this.ammo = 0;
+    int allDamage = this.currentAmmo * this.baseDamage;
+    this.currentAmmo = 0;
     return allDamage;
   }
 
   public int refill(int fillAmmo) {
-    int currentAmmo = this.ammo;
-    this.ammo = this.maxAmmo;
+    int currentAmmo = this.currentAmmo;
+    this.currentAmmo = this.maxAmmo;
     return fillAmmo - (this.maxAmmo - currentAmmo);
   }
 
   public boolean isPriority() {
-    if (this.type.equals("F16")) {
-      return false;
-    } else {
+    if (getType() == Model.F35) {
       return true;
+    } else {
+      return false;
     }
   }
 

@@ -2,9 +2,9 @@ package day02.aircraftcarrier;
 
 public class F35 extends Aircraft {
 
-  F35() {
+  public F35() {
     super(12,50);
-    this.setType("F35");
+    setType(Model.F35);
   }
 
 }

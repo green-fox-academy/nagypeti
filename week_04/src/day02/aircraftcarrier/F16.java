@@ -2,9 +2,9 @@ package day02.aircraftcarrier;
 
 public class F16 extends Aircraft {
 
-  F16() {
+  public F16() {
     super(8,16);
-    this.setType("F16");
+    setType(Model.F16);
   }
 
 }

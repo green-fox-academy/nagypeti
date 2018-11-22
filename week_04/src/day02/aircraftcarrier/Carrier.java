@@ -19,23 +19,31 @@ public class Carrier {
     listOfAircaftsCarried.add(aircraftToAdd);
   }
 
-  public int calculateDamageOfCarrier() {
-    int damageOfCarrier = 0;
+  public int getOverallDamage() {
+    int overallDamage = 0;
     for (Aircraft aircraft : listOfAircaftsCarried) {
-      damageOfCarrier += aircraft.getAmmo() * aircraft.getBaseDamage();
+      overallDamage += aircraft.getCurrentAmmo() * aircraft.getBaseDamage();
     }
-    return damageOfCarrier;
+    return overallDamage;
   }
 
   public String getStatus() {
-    return "HP: " + health + ", Aircraft count: " + listOfAircaftsCarried.size()
-            + ", Ammo Storage: " + ammoStorage + ", Total dmg: " + calculateDamageOfCarrier();
+    return "HP: " + health
+            + ", Aircraft count: " + listOfAircaftsCarried.size()
+            + ", Ammo Storage: " + ammoStorage
+            + ", Total dmg: " + getOverallDamage();
   }
 
-  public void fill() {
-    if (ammoStorage == 0) {
-      System.out.println("No more ammo in the Armory!");
+  public void fill() throws Exception {
+    if (ammoStorage <= 0) {
+      throw new Exception("Not enough ammo in the Armory!");
     } else {
+      for (Aircraft aircraft : listOfAircaftsCarried) {
+        if (aircraft.isPriority()) {
+          aircraft.refill(ammoStorage);
+          ammoStorage = ammoStorage - (ammoStorage - aircraft.refill(ammoStorage));
+        }
+      }
       for (Aircraft aircraft : listOfAircaftsCarried) {
         aircraft.refill(ammoStorage);
         ammoStorage = ammoStorage - (ammoStorage - aircraft.refill(ammoStorage));
@@ -44,7 +52,11 @@ public class Carrier {
   }
 
   public void fight(Carrier fightWith) {
-    fightWith.health -= this.calculateDamageOfCarrier();
+    fightWith.receiveAttack(this.getOverallDamage());
+  }
+
+  public void receiveAttack(int damage) {
+    this.health -= damage;
   }
 
 }
