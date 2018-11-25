@@ -7,8 +7,8 @@ public class ElectricGuitar extends StringedInstrument {
   }
 
   public ElectricGuitar(int nrOfStrings) {
-    this.numberOfStrings = nrOfStrings;
-    this.name = "Electric Guitar";
+    this.numberOfStrings= nrOfStrings;
+    this.setName("Electric Guitar");
   }
 
   public String sound() {

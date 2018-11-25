@@ -1,9 +1,9 @@
 package day03.abstractclasses.instrument.main.java.music;
 
-public abstract class Instrument {
+public interface Instrument {
 
-  protected String name;
+  void play();
 
-  public abstract void play();
+  String sound();
 
 }

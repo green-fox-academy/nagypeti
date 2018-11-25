@@ -1,9 +1,13 @@
 package day03.abstractclasses.instrument.main.java.music;
 
-public abstract class StringedInstrument extends Instrument {
+public abstract class StringedInstrument implements Instrument {
 
+  private String name;
   protected int numberOfStrings;
-  protected String sound;
+
+  public void setName(String name) {
+    this.name = name;
+  }
 
   public abstract String sound();
 

@@ -8,7 +8,7 @@ public class Violin extends StringedInstrument {
 
   public Violin(int nrOfStrings) {
     this.numberOfStrings = nrOfStrings;
-    this.name = "Violin";
+    this.setName("Violin");
   }
 
   public String sound() {

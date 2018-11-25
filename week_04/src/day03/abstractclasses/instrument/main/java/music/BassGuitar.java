@@ -2,15 +2,13 @@ package day03.abstractclasses.instrument.main.java.music;
 
 public class BassGuitar extends StringedInstrument {
 
-//  Duum-duum-duum
-
   public BassGuitar() {
     this(4);
   }
 
   public BassGuitar(int nrOfStrings) {
     this.numberOfStrings = nrOfStrings;
-    this.name = "Bass Guitar";
+    this.setName("Bass Guitar");
   }
 
   public String sound() {
