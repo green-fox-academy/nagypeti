@@ -17,7 +17,7 @@ public class copyFile {
     try {
       Files.write(Paths.get(fileToCopy), contentToFillIn.getBytes());
     } catch (IOException exp1) {
-      return;
+      System.out.println("Cannot write file");
     }
 
     System.out.println(copyFileIntoAnother(fileToCopy, copyInto));

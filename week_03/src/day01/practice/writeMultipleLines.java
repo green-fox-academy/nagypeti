@@ -14,7 +14,7 @@ public class writeMultipleLines {
     String myWord = "nyam";
     int randomNr = (int) (1 + (Math.random() * 10));
 
-    writeToFile(myPath,myWord,randomNr);
+    writeToFile(myPath, myWord, randomNr);
 
     try {
       List<String> printOut = Files.readAllLines(Paths.get(myPath));

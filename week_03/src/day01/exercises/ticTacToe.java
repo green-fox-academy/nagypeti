@@ -17,7 +17,7 @@ public class ticTacToe {
     System.out.println(ticTacResult("win-o.txt"));
     // Should print "O"
 
-    System.out.println(ticTacResult("win-x.txt"));
+    System.out.println(ticTacResult("day01/win-x.txt"));
     // Should print "X"
 
     System.out.println(ticTacResult("draw.txt"));
@@ -27,12 +27,11 @@ public class ticTacToe {
 
   public static char ticTacResult(String fileName) {
 
-    Path input = Paths.get(fileName);
     char[][] ticTacField = new char[3][3];
     char winner = ' ';
 
     try {
-      List<String> ticTacIn = Files.readAllLines(input);
+      List<String> ticTacIn = Files.readAllLines(Paths.get(fileName));
       for (int i = 0; i < ticTacField.length; i++) {
         for (int j = 0; j < ticTacField.length; j++) {
           ticTacField[i][j] = ticTacIn.get(i).charAt(j);
