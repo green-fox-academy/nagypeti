@@ -15,7 +15,7 @@ public class Hand {
     this.score = 0;
   }
 
-  public static ArrayList<Card> fillHand(String input){
+  public static ArrayList<Card> fillHand(String input) {
     ArrayList<Card> result = new ArrayList<>();
 
     String[] s = input.split(" ");
@@ -25,10 +25,10 @@ public class Hand {
     return result;
   }
 
-  public boolean isSameColor(){
+  public boolean isSameColor() {
     boolean b = true;
-    for (Card card:
-         hand) {
+    for (Card card :
+            hand) {
       if (hand.get(0).color != card.color) b = false;
     }
     return b;
@@ -40,7 +40,7 @@ public class Hand {
             .sorted(Comparator.comparing(Card::getValue))
             .collect(Collectors.toList());
     for (int i = 0; i < sortedList.size() - 1; i++) {
-      if (sortedList.get(i).value != sortedList.get(i+1).value - 1) b = false;
+      if (sortedList.get(i).value != sortedList.get(i + 1).value - 1) b = false;
     }
     return b;
   }
