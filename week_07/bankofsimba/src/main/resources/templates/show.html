@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Bank Of Simba</title>
+  <link rel="stylesheet" th:href="@{css/style.css}" />
+  <meta charset="utf-8" />
+</head>
+<body>
+
+  <div class="table">
+
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Account owner</th>
+        <th>Title</th>
+        <th>Species</th>
+        <th></th>
+        <th>Balance</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr th:each="account : ${demoBank}">
+          <td align="center" th:text="${accountStat.count}"></td>
+          <td th:text="${account.getName()}"></td>
+          <td align="center" th:if="${account.isKing()}"><img th:src="@{img/crown.png}"/></td>
+          <td align="center" th:unless="${account.isKing()}">subject</td>
+          <td align="center" th:text="${account.getAnimalType()}"></td>
+          <div th:switch="${account.isKing()}">
+            <td align="center" th:case="true">Good One</td>
+            <td align="center" th:case="false">Bad Guy</td>
+          </div>
+          <td th:text="${#numbers.formatDecimal(account.getBalance(), 1, 'COMMA', 2, 'POINT')} + ' ' + ${account.getCurrency()}"></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+</html>
