@@ -34,15 +34,20 @@ public class BankAccount {
     return balance;
   }
 
-  public Currency getCurrency() {
-    return currency;
-  }
-
   public String getAnimalType() {
     return animalType;
+  }
+
+  public Currency getCurrency() {
+    return currency;
   }
 
   public boolean isKing() {
     return isKing;
   }
+
+  public boolean isGood() {
+    return isGood;
+  }
+
 }
