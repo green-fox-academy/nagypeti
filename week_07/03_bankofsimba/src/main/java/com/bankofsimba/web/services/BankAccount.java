@@ -10,7 +10,6 @@ public class BankAccount {
   String animalType;
   boolean isKing;
   boolean isGood;
-  Owner owner;
 
   public BankAccount(String name, double balance, Currency currency, String animalType, boolean isGood) {
     this.name = name;
