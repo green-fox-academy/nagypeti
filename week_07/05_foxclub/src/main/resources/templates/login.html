@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <h1>Create Account</h1>
+  <form method="post" th:action="@{/login}" th:object="${character}">
+    <label>Character Name: </label>
+    <input name="name" th:field="*{name}">
+    <label>Hero type: </label>
+    <select th:field="${character}" name="type">
+    <option th:each="type : *{availableTypes}"
+            th:value="*{type.}"/>
+    </select>
+
+
+    <button>Create character</button>
+  </form>
+</body>
+</html>
