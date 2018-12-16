@@ -2,23 +2,27 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
   <title>Avangers HQ</title>
+  <link rel="stylesheet" th:href="@{/css/main.css}" />
   <meta charset="utf-8"/>
 </head>
 <header>
   <h1>Welcome to Stark Tower!</h1>
   <nav>
-    <a href="store.html">Store</a>
-    <a href="canteen.html">Canteen</a>
-    <a href="login.html">Sign In</a>
+    <a href="store">Store</a>
+    <a th:href="@{canteen/(name=${c.name})}">Canteen</a>
+    <a href="login">Sign In</a>
   </nav>
 </header>
-<body th:object="${character}">
-  <img th:href="|../img/*{type}.png|">
+<body th:object="${c}">
+<main>
+<img alt="charimg" th:src="@{'/img/' + ${c.type} + '.png'}" th:width="200" th:height="200"/>
   <div id="status">
     <p th:text="'This is ' + *{name}"></p>
+    <p th:text="'Type ' + *{type}"></p>
     <p th:text="*{food==null && drink==null}
-          ?'Currently living on only nothing. Visit to canteen to get food and drink.'
+          ?'Currently living on nothing. Visit the canteen to get some food and drink.'
           :'Currently living on ' + *{food} + ' and ' + *{drink}"></p>
   </div>
+</main>
 </body>
 </html>

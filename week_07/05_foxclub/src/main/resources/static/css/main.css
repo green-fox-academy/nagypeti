@@ -11,5 +11,45 @@ html {
     font-family: Arial;
 }
 
-body {
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .5);
+}
+
+header > h1 {
+    color: white;
+    display: inline;
+}
+
+header a {
+    color: #eee;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a + a::before {
+    content: "|";
+    margin: 0 1rem;
+}
+
+header nav {
+    float: right;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 100px;
+    background-color: #eee;
 }
