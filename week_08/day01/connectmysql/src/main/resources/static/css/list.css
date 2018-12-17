@@ -1,0 +1,19 @@
+html, body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 100px;
+}
+
+main > table.center {
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+}
