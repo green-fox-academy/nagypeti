@@ -1,20 +1,20 @@
-package com.dbintegration.connecmysql.model;
+package com.dbintegration.connecmysql.repository;
 
-import com.dbintegration.connecmysql.repository.Todo;
-import com.dbintegration.connecmysql.repository.TodoRepository;
+import com.dbintegration.connecmysql.model.Todo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
-public class TodoService {
+public class TodoRepositoryImpl{
 
-  private TodoRepository todoRepository;
+  TodoRepository todoRepository;
 
   @Autowired
-  public TodoService(TodoRepository todoRepository) {
+  TodoRepositoryImpl(TodoRepository todoRepository) {
     this.todoRepository = todoRepository;
   }
 
@@ -24,7 +24,7 @@ public class TodoService {
     return todos;
   }
 
-  public Todo getTodo(Long id) {
+  public Todo getTodoBy(Long id) {
     return todoRepository.findById(id).orElse(null);
   }
 
@@ -32,11 +32,8 @@ public class TodoService {
     todoRepository.save(todo);
   }
 
-  public void updateTodo(Todo todo) {
-   todoRepository.save(todo);
-  }
-
-  public void deleteTodo(Long id) {
+  public void deleteTodoBy(Long id) {
     todoRepository.deleteById(id);
   }
+
 }

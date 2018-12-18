@@ -1,4 +1,4 @@
-package com.dbintegration.connecmysql.repository;
+package com.dbintegration.connecmysql.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

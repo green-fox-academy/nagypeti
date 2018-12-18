@@ -1,7 +1,7 @@
 package com.dbintegration.connecmysql.controller;
 
-import com.dbintegration.connecmysql.model.TodoService;
-import com.dbintegration.connecmysql.repository.Todo;
+import com.dbintegration.connecmysql.repository.TodoRepositoryImpl;
+import com.dbintegration.connecmysql.model.Todo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,22 +13,22 @@ import java.util.stream.Collectors;
 @RequestMapping("/todo")
 public class TodoController {
 
-  private TodoService todoService;
+  private TodoRepositoryImpl todoRepositoryImpl;
 
   @Autowired
-  public TodoController(TodoService todoService) {
-    this.todoService = todoService;
+  public TodoController(TodoRepositoryImpl todoRepositoryImpl) {
+    this.todoRepositoryImpl = todoRepositoryImpl;
   }
 
   @GetMapping(value = {"", "/", "/list"})
   public String allTodos(Model model) {
-    model.addAttribute("todos", this.todoService.getTodos());
+    model.addAttribute("todos", this.todoRepositoryImpl.getTodos());
     return "listoftodos";
   }
 
   @GetMapping("/active")
   public String activeTodos(@RequestParam(name = "isActive", required = false) boolean isActive, Model model) {
-    model.addAttribute("todos", this.todoService.getTodos()
+    model.addAttribute("todos", this.todoRepositoryImpl.getTodos()
             .stream()
             .filter(todo -> !todo.isDone())
             .collect(Collectors.toList()));
@@ -43,25 +43,25 @@ public class TodoController {
 
   @PostMapping("/add-todo")
   public String addTodo(@ModelAttribute Todo todo) {
-    this.todoService.addTodo(todo);
+    this.todoRepositoryImpl.addTodo(todo);
     return "redirect:/todo";
   }
 
   @GetMapping("/{id}/delete")
   public String deleteTodo(@PathVariable long id) {
-    todoService.deleteTodo(id);
+    todoRepositoryImpl.deleteTodoBy(id);
     return "redirect:/todo";
   }
 
   @GetMapping("/{id}/edit")
   public String editTodo(@PathVariable long id, Model model) {
-    model.addAttribute("todo", todoService.getTodo(id));
+    model.addAttribute("todo", todoRepositoryImpl.getTodoBy(id));
     return "edit-todo";
   }
 
   @PostMapping("/{id}/edit")
   public String editTodo(@ModelAttribute("todo") Todo todo) {
-    todoService.addTodo(todo);
+    todoRepositoryImpl.addTodo(todo);
     return "redirect:/todo";
   }
 

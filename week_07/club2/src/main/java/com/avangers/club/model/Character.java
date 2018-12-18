@@ -1,22 +1,27 @@
-package com.gf.foxclub.service;
+package com.avangers.club.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "character")
 public class Character {
 
+  @Id
   private String name;
   private String type;
-  private List<String> availableTypes;
   private String food;
   private String drink;
 
   public Character() {
-    this.availableTypes = new ArrayList<>();
-    availableTypes.add("ironman");
-    availableTypes.add("thor");
-    availableTypes.add("captainamerica");
   }
+
+  public Character(String name, String type) {
+    this.name = name;
+    this.type = type;
+  }
+
 
   public String getName() {
     return name;
@@ -50,7 +55,4 @@ public class Character {
     this.drink = drink;
   }
 
-  public List<String> getAvailableTypes() {
-    return availableTypes;
-  }
 }
