@@ -10,10 +10,11 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 public class MainController {
 
-  private CharacterRepository characters;
+
+  CharacterRepository characters;
 
   @Autowired
-  public MainController(CharacterRepository characters) {
+  MainController (CharacterRepository characters) {
     this.characters = characters;
   }
 
@@ -22,7 +23,7 @@ public class MainController {
     if (name == null) {
       return "redirect:/login";
     }
-    model.addAttribute("c", characters.findById(name));
+    model.addAttribute("character", characters.findById(name));
     return "main";
   }
 

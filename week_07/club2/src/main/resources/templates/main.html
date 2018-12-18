@@ -8,14 +8,12 @@
 <header>
   <h1>Welcome to Stark Tower!</h1>
   <nav>
-    <a href="store">Store</a>
-    <a th:href="@{canteen/(name=${c.name})}">Canteen</a>
     <a href="login">Sign In</a>
   </nav>
 </header>
-<body th:object="${c}">
-<main>
-<img alt="charimg" th:src="@{'/img/' + ${c.type} + '.png'}" th:width="200" th:height="200"/>
+<body>
+<main th:object="${character}">
+<img alt="charimg" th:src="@{'/img/' + ${character.getType()} + '.png'}" th:width="200" th:height="200"/>
   <div id="status">
     <p th:text="'This is ' + *{name}"></p>
     <p th:text="'Type ' + *{type}"></p>

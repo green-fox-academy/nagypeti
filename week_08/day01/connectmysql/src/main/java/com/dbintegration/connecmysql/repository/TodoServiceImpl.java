@@ -6,15 +6,14 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
-public class TodoRepositoryImpl{
+public class TodoServiceImpl implements TodoService {
 
   TodoRepository todoRepository;
 
   @Autowired
-  TodoRepositoryImpl(TodoRepository todoRepository) {
+  TodoServiceImpl(TodoRepository todoRepository) {
     this.todoRepository = todoRepository;
   }
 
