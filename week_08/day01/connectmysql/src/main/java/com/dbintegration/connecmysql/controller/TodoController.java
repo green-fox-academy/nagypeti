@@ -7,7 +7,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.util.Comparator.comparing;
 
 @Controller
 @RequestMapping("/todo")
@@ -22,7 +25,10 @@ public class TodoController {
 
   @GetMapping(value = {"", "/", "/list"})
   public String allTodos(Model model) {
-    model.addAttribute("todos", this.todoServiceImpl.getTodos());
+    model.addAttribute("todos", this.todoServiceImpl.getTodos()
+            .stream()
+            .sorted(comparing(Todo::getId))
+            .collect(Collectors.toList()));
     return "main";
   }
 

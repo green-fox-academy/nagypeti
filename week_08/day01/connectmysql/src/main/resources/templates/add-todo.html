@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+  <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" th:href="@{css/material.min.css}"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
   <meta charset="UTF-8">
   <title>Add</title>
 </head>
 <body>
-  <h1>Add todo to list</h1>
-  <form class="form-addtodo" method="post" th:object="${todo}" th:action="@{/todo/add-todo}">
-    <label>Title</label>
-    <input name="title" type="text" th:field="*{title}">
-    <label>Urgent?</label>
-    <input name="urgent" type="checkbox" th:field="*{urgent}">
-    <button value="submit">Create</button>
-  </form>
+  <div class="container">
+    <h1>Add todo to list</h1>
+    <form class="form-inline" method="post" th:object="${todo}" th:action="@{/todo/add-todo}">
+      <label class="sr-only" for="inlineFormInputName2">Title</label>
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Title goes here..." th:field="*{title}">
+      <div class="form-check mb-2 mr-sm-2">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck" th:field="*{urgent}">
+        <label class="form-check-label" for="inlineFormCheck">Urgent?</label>
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Create</button>
+    </form>
+  </div>
+  <script src="/webjars/jquery/2.1.4/jquery.js"></script>
+  <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>
