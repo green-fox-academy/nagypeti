@@ -2,18 +2,18 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" th:href="@{css/material.min.css}"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
   <meta charset="UTF-8">
   <title>List Of Todo's</title>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="/todo/list">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+            MyTodo Organizer
           </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -27,10 +27,19 @@
   </header>
   <main>
     <div class="container">
+      <div class="row">
+        <form method="get" th:action="@{/todo/search}">
+          <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Search for title" name="searchfor"/>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </form>
+      </div>
     <table class="table table-striped">
       <thead>
       <tr>
-        <th>ID</th>
         <th>Urgent</th>
         <th>Done</th>
         <th>Title</th>
@@ -40,7 +49,6 @@
       </thead>
       <tbody>
       <tr scope="row" th:each="todo : ${todos}">
-        <td th:text="${todo.id}"></td>
         <td><p th:text="${todo.urgent} ? 'warning' : ''" class="material-icons"></p></td>
         <td th:text="${todo.done} ? 'check_box' : 'check_box_outline_blank'" class="material-icons"></td>
         <td th:text="${todo.title}"></td>

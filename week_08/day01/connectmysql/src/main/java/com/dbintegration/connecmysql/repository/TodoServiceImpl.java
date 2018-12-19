@@ -35,4 +35,14 @@ public class TodoServiceImpl implements TodoService {
     todoRepository.deleteById(id);
   }
 
+  public List<Todo> findAllByDoneOrderByUrgent() {
+    return todoRepository.findAllByDoneFalseOrderByUrgentDesc();
+  }
+
+  public List<Todo> findAllByTitleContainsOrderByUrgentDesc(String searchfor) {
+    return todoRepository.findAllByTitleContainsOrderByUrgentDesc(searchfor);
+  }
+
+
+
 }

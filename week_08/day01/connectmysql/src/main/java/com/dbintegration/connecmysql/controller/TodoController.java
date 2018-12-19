@@ -27,17 +27,22 @@ public class TodoController {
   public String allTodos(Model model) {
     model.addAttribute("todos", this.todoServiceImpl.getTodos()
             .stream()
-            .sorted(comparing(Todo::getId))
+            .sorted(comparing(Todo::isUrgent).reversed())
             .collect(Collectors.toList()));
+    String searchParam = "";
+    model.addAttribute("searchfor", searchParam);
+    return "main";
+  }
+
+  @GetMapping("/search")
+  public String searchInTitle(@RequestParam("searchfor") String searchfor, Model model) {
+    model.addAttribute("todos", this.todoServiceImpl.findAllByTitleContainsOrderByUrgentDesc(searchfor));
     return "main";
   }
 
   @GetMapping("/active")
   public String activeTodos(Model model) {
-    model.addAttribute("todos", this.todoServiceImpl.getTodos()
-            .stream()
-            .filter(todo -> !todo.isDone())
-            .collect(Collectors.toList()));
+    model.addAttribute("todos", this.todoServiceImpl.findAllByDoneOrderByUrgent());
     return "main";
   }
 
