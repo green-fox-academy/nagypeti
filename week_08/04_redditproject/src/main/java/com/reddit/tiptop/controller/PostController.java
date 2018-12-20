@@ -5,10 +5,7 @@ import com.reddit.tiptop.service.PostServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class PostController {
@@ -20,20 +17,27 @@ public class PostController {
     this.service = service;
   }
 
-  @GetMapping
-  public String mainPage() {
-    return "main";
+  @GetMapping(value = {"", "/"})
+  public String mainPage(Model model) {
+    model.addAttribute("posts", service.getPosts());
+    return "index";
   }
 
-  @GetMapping("/add")
-  public String addPost() {
-    return "add-post";
+  @GetMapping("/submit")
+  public String addPost(Model model) {
+    model.addAttribute("post", new Post());
+    return "submit";
+  }
+
+  @PostMapping("/submit")
+  public String addPost(@ModelAttribute("post") Post post) {
+    return "redirect:/";
   }
 
   @GetMapping("/{id}/edit")
   public String editPost(@PathVariable long id, Model model) {
     model.addAttribute("post", service.getPostById(id));
-    return "edit-post";
+    return "edit";
   }
 
   @PutMapping("/{id}/edit")
