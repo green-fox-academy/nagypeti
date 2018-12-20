@@ -23,16 +23,20 @@ public class PostController {
     return "index";
   }
 
-  @PutMapping("/{id}/upVote")
-  public String upVote() {
-
-    return "index";
+  @GetMapping("/{id}/upvote")
+  public String upVote(@PathVariable long id) {
+    Post post = service.getPostById(id);
+    service.editVoteByIdUp(post);
+    service.addPost(post);
+    return "redirect:/";
   }
 
-  @PutMapping("/{id}/downVote")
-  public String downVote() {
-
-    return "index";
+  @GetMapping("/{id}/downvote")
+  public String downVote(@PathVariable long id) {
+    Post post = service.getPostById(id);
+    service.editVoteByIdDown(post);
+    service.addPost(post);
+    return "redirect:/";
   }
 
   @GetMapping("/submit")
@@ -53,7 +57,7 @@ public class PostController {
     return "edit";
   }
 
-  @PutMapping("/{id}/edit")
+  @PostMapping("/{id}/edit")
   public String editPost(@ModelAttribute("post") Post post) {
     service.editPost(post);
     return "redirect:/";

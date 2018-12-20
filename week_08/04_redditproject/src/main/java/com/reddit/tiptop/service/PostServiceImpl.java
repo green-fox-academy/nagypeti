@@ -42,6 +42,16 @@ public class PostServiceImpl implements PostService {
   }
 
   @Override
+  public void editVoteByIdUp(Post post) {
+    post.setVote(post.getVote() + 1);
+  }
+
+  @Override
+  public void editVoteByIdDown(Post post) {
+    post.setVote(post.getVote() - 1);
+  }
+
+  @Override
   public void deletePostById(long id) {
     repository.deleteById(id);
   }
