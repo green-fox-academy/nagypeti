@@ -5,6 +5,7 @@ import com.reddit.tiptop.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -31,6 +32,7 @@ public class PostServiceImpl implements PostService {
 
   @Override
   public void addPost(Post post) {
+    post.setDate(new Date());
     repository.save(post);
   }
 

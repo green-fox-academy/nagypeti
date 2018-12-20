@@ -23,6 +23,18 @@ public class PostController {
     return "index";
   }
 
+  @PutMapping("/{id}/upVote")
+  public String upVote() {
+
+    return "index";
+  }
+
+  @PutMapping("/{id}/downVote")
+  public String downVote() {
+
+    return "index";
+  }
+
   @GetMapping("/submit")
   public String addPost(Model model) {
     model.addAttribute("post", new Post());
@@ -31,6 +43,7 @@ public class PostController {
 
   @PostMapping("/submit")
   public String addPost(@ModelAttribute("post") Post post) {
+    service.addPost(post);
     return "redirect:/";
   }
 
