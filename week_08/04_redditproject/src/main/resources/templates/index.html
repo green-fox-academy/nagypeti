@@ -33,8 +33,8 @@
 							<span class="submdate">submitted 4 days ago by</span>
 							<a class="submitter" href="http://gfa.com">Anonymus</a><br>
 							<span class="num_comments">61 comments </span>
-							<a class="modify" href="http://gfa.com">modify</a>
-							<a class="remove" href="http://gfa.com">remove</a>
+							<a class="modify" th:href="@{/{id}/edit(id=*{postId})}">modify</a>
+							<a class="remove" th:href="@{/{id}/delete(id=*{postId})}">remove</a>
 						</div>
 					</div>
 				</th:block>

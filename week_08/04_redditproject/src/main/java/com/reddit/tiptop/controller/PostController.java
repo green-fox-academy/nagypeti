@@ -2,6 +2,7 @@ package com.reddit.tiptop.controller;
 
 import com.reddit.tiptop.repository.Post;
 import com.reddit.tiptop.service.PostServiceImpl;
+import com.reddit.tiptop.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,32 +11,34 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class PostController {
 
-  PostServiceImpl service;
+  PostServiceImpl postService;
+  UserServiceImpl userService;
 
   @Autowired
-  PostController(PostServiceImpl service) {
-    this.service = service;
+  PostController(PostServiceImpl postService, UserServiceImpl userService) {
+    this.postService = postService;
+    this.userService = userService;
   }
 
   @GetMapping(value = {"", "/"})
   public String mainPage(Model model) {
-    model.addAttribute("posts", service.getPosts());
+    model.addAttribute("posts", postService.getPosts());
     return "index";
   }
 
   @GetMapping("/{id}/upvote")
   public String upVote(@PathVariable long id) {
-    Post post = service.getPostById(id);
-    service.editVoteByIdUp(post);
-    service.addPost(post);
+    Post post = postService.getPostById(id);
+    postService.editVoteByIdUp(post);
+    postService.addPost(post);
     return "redirect:/";
   }
 
   @GetMapping("/{id}/downvote")
   public String downVote(@PathVariable long id) {
-    Post post = service.getPostById(id);
-    service.editVoteByIdDown(post);
-    service.addPost(post);
+    Post post = postService.getPostById(id);
+    postService.editVoteByIdDown(post);
+    postService.addPost(post);
     return "redirect:/";
   }
 
@@ -47,23 +50,26 @@ public class PostController {
 
   @PostMapping("/submit")
   public String addPost(@ModelAttribute("post") Post post) {
-    service.addPost(post);
+    postService.addPost(post);
     return "redirect:/";
   }
 
   @GetMapping("/{id}/edit")
   public String editPost(@PathVariable long id, Model model) {
-    model.addAttribute("post", service.getPostById(id));
+    model.addAttribute("editedpost", postService.getPostById(id));
     return "edit";
   }
 
   @PostMapping("/{id}/edit")
-  public String editPost(@ModelAttribute("post") Post post) {
-    service.editPost(post);
+  public String editPost(@ModelAttribute("editedpost") Post post) {
+    postService.addPost(post);
     return "redirect:/";
   }
 
-
-
+  @GetMapping("/{id}/delete")
+  public String deletePost(@PathVariable long id) {
+    postService.deletePostById(id);
+    return "redirect:/";
+  }
 
 }
