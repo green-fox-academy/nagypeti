@@ -8,5 +8,6 @@ import java.util.List;
 public interface LogService {
 
   List<Log> logs();
+  void createLog(Log log);
 
 }

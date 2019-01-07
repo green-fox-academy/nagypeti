@@ -1,5 +1,7 @@
 package com.task1.frontend.log;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -10,14 +12,17 @@ public class Log {
   @GeneratedValue(strategy= GenerationType.AUTO)
   private long id ;
 
+  @JsonIgnore
   @Temporal(TemporalType.TIMESTAMP)
   private Date createdAt;
 
   private String endpoint;
   private String data;
 
-  public Log(Date createdAt, String endpoint, String data) {
-    this.createdAt = createdAt;
+  public Log() {
+  }
+
+  public Log(String endpoint, String data) {
     this.endpoint = endpoint;
     this.data = data;
   }

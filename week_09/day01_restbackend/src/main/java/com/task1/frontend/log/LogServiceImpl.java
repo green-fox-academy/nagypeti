@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -17,6 +18,12 @@ public class LogServiceImpl implements LogService {
     List<Log> logs = new ArrayList<>();
     logRepository.findAll().forEach(logs::add);
     return logs;
+  }
+
+  @Override
+  public void createLog(Log log) {
+    log.setCreatedAt(new Date());
+    logRepository.save(log);
   }
 
 }
