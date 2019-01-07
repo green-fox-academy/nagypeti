@@ -11,5 +11,6 @@ public interface TodoRepository extends CrudRepository<Todo, Long> {
 
   List<Todo> findAllByDoneFalseOrderByUrgentDesc();
   List<Todo> findAllByTitleContainsOrderByUrgentDesc(String searchfor);
+  List<Todo> findAllByUrgentTrueOrderByDone();
 
 }

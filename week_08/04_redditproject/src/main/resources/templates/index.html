@@ -16,6 +16,8 @@
 		<a href="/">Home</a>
 		<a href="/top">Top posts</a>
 		<a href="/submit">Submit new post</a>
+		<div class="login">
+		</div>
 	</div>
 	<div class="container">
 		<div class="flexgrid">
@@ -23,18 +25,18 @@
 				<th:block th:object="${post}" th:each="post : ${posts}">
 					<div class="post">
 						<div class="postbuttons">
-							<a th:href="@{/{id}/upvote(id=*{postId})}"><img src="./images/upvote.png"></a>
+							<a th:href="@{/{id}/upvote(id=*{id})}"><img src="./images/upvote.png"></a>
 							<h2 th:text="*{vote}"></h2>
-							<a th:href="@{/{id}/downvote(id=*{postId})}"><img src="./images/downvote.png"></a>
+							<a th:href="@{/{id}/downvote(id=*{id})}"><img src="./images/downvote.png"></a>
 						</div>
 						<div class="posttext">
 							<h1><a th:text="*{title}" th:href="*{url}"></a></h1>
-							<a class="source" href="http://gfa.com"> (greenfoxacademy.com)</a><br>
-							<span class="submdate">submitted 4 days ago by</span>
-							<a class="submitter" href="http://gfa.com">Anonymus</a><br>
+							<a class="source" th:href="*{url}" th:text="'(' + ${#strings.substringBefore(post.url, '/')} + ')'"> (greenfoxacademy.com)</a><br>
+							<span class="submdate" th:text="*{timeSinceCreation} + ' by'"></span>
+							<span class="submitter" th:text="*{user.name}"></span><br>
 							<span class="num_comments">61 comments </span>
-							<a class="modify" th:href="@{/{id}/edit(id=*{postId})}">modify</a>
-							<a class="remove" th:href="@{/{id}/delete(id=*{postId})}">remove</a>
+							<a class="modify" th:href="@{/{id}/edit(id=*{id})}">modify</a>
+							<a class="remove" th:href="@{/{id}/delete(id=*{id})}">remove</a>
 						</div>
 					</div>
 				</th:block>

@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import static com.reddit.tiptop.service.DateService.timeSinceCreation;
+
 @Controller
 public class PostController {
 
@@ -20,9 +22,10 @@ public class PostController {
     this.userService = userService;
   }
 
-  @GetMapping(value = {"", "/"})
-  public String mainPage(Model model) {
+  @GetMapping(value = "/{id}")
+  public String mainPage(@PathVariable long id, Model model) {
     model.addAttribute("posts", postService.getPosts());
+    model.addAttribute("user", userService.findById(id));
     return "index";
   }
 
@@ -30,7 +33,7 @@ public class PostController {
   public String upVote(@PathVariable long id) {
     Post post = postService.getPostById(id);
     postService.editVoteByIdUp(post);
-    postService.addPost(post);
+    postService.editPost(post);
     return "redirect:/";
   }
 
@@ -38,7 +41,7 @@ public class PostController {
   public String downVote(@PathVariable long id) {
     Post post = postService.getPostById(id);
     postService.editVoteByIdDown(post);
-    postService.addPost(post);
+    postService.editPost(post);
     return "redirect:/";
   }
 
@@ -62,7 +65,7 @@ public class PostController {
 
   @PostMapping("/{id}/edit")
   public String editPost(@ModelAttribute("editedpost") Post post) {
-    postService.addPost(post);
+    postService.editPost(post);
     return "redirect:/";
   }
 

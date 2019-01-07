@@ -16,12 +16,17 @@ public class UserServiceImpl implements UserService{
   }
 
   @Override
-  public User getUserById(long id) {
-    return null;
+  public User findById(long id) {
+    return users.findById(id).orElse(null);
+  }
+
+  @Override
+  public User findByName(String name) {
+    return users.findByUsername(name);
   }
 
   @Override
   public void addUser(User user) {
-
+    users.save(user);
   }
 }

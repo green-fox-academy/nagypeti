@@ -4,7 +4,8 @@ import com.reddit.tiptop.repository.User;
 
 public interface UserService {
 
-  User getUserById(long id);
+  User findById(long id);
+  User findByName(String name);
   void addUser(User user);
 
 }

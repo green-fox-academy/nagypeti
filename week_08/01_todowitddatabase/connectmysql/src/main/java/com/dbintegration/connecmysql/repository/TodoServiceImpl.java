@@ -43,6 +43,10 @@ public class TodoServiceImpl implements TodoService {
     return todoRepository.findAllByTitleContainsOrderByUrgentDesc(searchfor);
   }
 
+  public List<Todo> findAllByUrgentTrueOrderByDone() {
+    return todoRepository.findAllByUrgentTrueOrderByDone();
+  }
+
 
 
 }

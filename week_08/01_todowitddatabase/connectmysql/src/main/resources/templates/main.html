@@ -20,7 +20,7 @@
               <a class="nav-link" href="/todo/add-todo">Add todo</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0" method="get" th:object="" th:action="@{/todo/search}">
+          <form class="form-inline my-2 my-lg-0" method="get" th:action="@{/todo/search}">
             <div class="input-group mb-3">
               <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" name="searchfor">
               <div class="input-group-append">
@@ -30,8 +30,9 @@
                 </button>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="/todo/active">Active todo's</a>
+                  <a class="dropdown-item" href="/todo/urgent">Urgent todo's</a>
                   <div role="separator" class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+                  <a class="dropdown-item" href="/todo/">Back to todo's</a>
                 </div>
               </div>
             </div>

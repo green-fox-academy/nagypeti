@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>TipTop Official Reddit</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     </head>
     <body>
@@ -18,7 +18,7 @@
             <a href="/submit">Submit new post</a>
         </div>
         <div class="container">
-            <form class="editpost" th:object="${editedpost}" method="post" th:action="@{/{id}/edit(id=*{postId})}">
+            <form class="editpost" th:object="${editedpost}" method="post" th:action="@{/{id}/edit(id=*{id})}">
                 <div>
                     <label for="title">Title of the post:</label>
                     <input id="title" type="text" name="title" th:field="*{title}">

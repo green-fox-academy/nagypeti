@@ -46,6 +46,12 @@ public class TodoController {
     return "main";
   }
 
+  @GetMapping("/urgent")
+  public String urgentTodos(Model model) {
+    model.addAttribute("todos", this.todoServiceImpl.findAllByUrgentTrueOrderByDone());
+    return "main";
+  }
+
   @GetMapping("/add-todo")
   public String addTodo(Model model) {
    model.addAttribute("todo", new Todo());
