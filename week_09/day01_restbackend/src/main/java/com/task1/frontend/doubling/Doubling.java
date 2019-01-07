@@ -1,4 +1,4 @@
-package com.task1.frontend.repository;
+package com.task1.frontend.doubling;
 
 public class Doubling {
 

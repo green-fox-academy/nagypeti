@@ -1,10 +1,9 @@
-package com.task1.frontend.controller;
+package com.task1.frontend.doubling;
 
-import com.task1.frontend.repository.Doubling;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.task1.frontend.repository.Error;
+import com.task1.frontend.error.Error;
 
 @RestController
 public class DoublingController {

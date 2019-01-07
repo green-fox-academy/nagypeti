@@ -1,8 +1,6 @@
-package com.task1.frontend.controller;
+package com.task1.frontend.dountil;
 
-import com.task1.frontend.repository.DoUntil;
-import com.task1.frontend.repository.Error;
-import com.task1.frontend.repository.Until;
+import com.task1.frontend.error.Error;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

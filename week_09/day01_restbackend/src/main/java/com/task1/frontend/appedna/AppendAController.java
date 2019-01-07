@@ -1,6 +1,5 @@
-package com.task1.frontend.controller;
+package com.task1.frontend.appedna;
 
-import com.task1.frontend.repository.Append;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

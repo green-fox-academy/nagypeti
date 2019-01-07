@@ -1,4 +1,4 @@
-package com.task1.frontend.repository;
+package com.task1.frontend.error;
 
 public class Error {
 
