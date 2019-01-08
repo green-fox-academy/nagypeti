@@ -1,7 +1,6 @@
 package com.task1.frontend.doubling;
 
 import com.task1.frontend.log.Log;
-import com.task1.frontend.log.LogRepository;
 import com.task1.frontend.log.LogServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
