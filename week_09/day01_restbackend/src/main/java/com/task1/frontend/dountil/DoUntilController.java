@@ -14,18 +14,16 @@ public class DoUntilController {
 
   @PostMapping("/dountil/{action}")
   public Object doUntil(@PathVariable String action, @RequestBody UntilDto untilDto) {
+    DoUntilService calcUntil = new DoUntilService();
     if (action.equals("sum")) {
-      DoUntil sumUntil = new DoUntil();
-      sumUntil.setResult(sumUntil.sum(untilDto.until));
-      logService.createLog(new Log("/dountil/sum", String.format("until=%s", untilDto.until)));
-      return sumUntil;
+      calcUntil.setResult(calcUntil.sum(untilDto.until));
     } else if (action.equals(("factor"))) {
-      DoUntil facUntil = new DoUntil();
-      facUntil.setResult(facUntil.refactor(untilDto.until));
-      logService.createLog(new Log("/dountil/factor", String.format("until=%s", untilDto.until)));
-      return facUntil;
+      calcUntil.setResult(calcUntil.factor(untilDto.until));
     } else {
       return new Error("Please provide a number!");
     }
+    logService.createLog(new Log("/dountil/" + action, String.format("until=%s", untilDto.until)));
+    return calcUntil;
   }
+
 }

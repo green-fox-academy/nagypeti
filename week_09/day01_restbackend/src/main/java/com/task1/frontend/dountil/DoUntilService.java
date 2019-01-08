@@ -1,10 +1,10 @@
 package com.task1.frontend.dountil;
 
-public class DoUntil {
+public class DoUntilService {
 
   private Integer result;
 
-  public DoUntil() {
+  public DoUntilService() {
   }
 
   public Integer getResult() {
@@ -22,11 +22,11 @@ public class DoUntil {
     return number + sum(number - 1);
   }
 
-  public int refactor(int number) {
+  public int factor(int number) {
     if (number == 0) {
       return 1;
     }
-    return number * refactor(number - 1);
+    return number * factor(number - 1);
   }
 
 }
