@@ -19,9 +19,11 @@ public class MainController {
   @GetMapping("/")
   public String indexPage(@RequestParam(value = "id", required = false) Long id, Model model) {
     if (id != null) {
-      model.addAttribute("message", "Your URL is aliased to "
-              + aliasService.findById(id).getAliasName() + " and your secret code is "
-              + aliasService.findById(id).getSecretCode() + ".");
+      model.addAttribute("name", aliasService.findById(id).getAliasName());
+      model.addAttribute("code", aliasService.findById(id).getSecretCode());
+    } else {
+      model.addAttribute("name", "empty");
+      model.addAttribute("code", "empty");
     }
     model.addAttribute("newAlias", new Alias());
     return "index";
@@ -31,7 +33,7 @@ public class MainController {
   public String saveLink(@ModelAttribute("newAlias") Alias alias,
                          Model model, RedirectAttributes redir) {
     if (aliasService.existsAliasByAliasName(alias.getAliasName())) {
-      model.addAttribute("message", "Your alias is already in use!");
+      model.addAttribute("error", "Your alias is already in use!");
       return "index";
     } else {
       aliasService.addAlias(alias);

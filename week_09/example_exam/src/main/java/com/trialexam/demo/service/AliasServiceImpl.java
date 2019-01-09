@@ -24,8 +24,8 @@ public class AliasServiceImpl implements AliasService {
   }
 
   @Override
-  public void deleteAlias(Alias alias) {
-    aliasRepository.delete(alias);
+  public void deleteById(Long id) {
+    aliasRepository.deleteById(id);
   }
 
   public boolean existsAliasByAliasName(String aliasName) {

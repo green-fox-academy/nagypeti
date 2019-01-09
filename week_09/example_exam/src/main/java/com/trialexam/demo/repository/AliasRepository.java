@@ -13,6 +13,7 @@ public interface AliasRepository extends JpaRepository<Alias, Long> {
 
   boolean existsAliasByAliasName(String aliasName);
   Alias findAliasByAliasName(String aliasName);
+  void deleteById(Long id);
 
   @Modifying
   @Transactional
