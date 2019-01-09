@@ -1,9 +1,13 @@
 package com.trialexam.demo.service;
 
 import com.trialexam.demo.model.Alias;
+import com.trialexam.demo.model.AliasDto;
 import com.trialexam.demo.repository.AliasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static com.trialexam.demo.service.RandomGen.randFourDigitLong;
 
@@ -39,4 +43,17 @@ public class AliasServiceImpl implements AliasService {
   public void incHitCount(String aliasName) {
     aliasRepository.incHitCount(aliasRepository.findAliasByAliasName(aliasName).getId());
   }
+
+  public AliasDto tranformAlias(Alias alias) {
+    return new AliasDto(alias.getId(),alias.getUrl(), alias.getAliasName(), alias.getHitCount());
+  }
+
+  public List<AliasDto> aliasDtos() {
+    List<AliasDto> aliasDtos = new ArrayList<>();
+    for (Alias alias: aliasRepository.findAll()) {
+      aliasDtos.add(tranformAlias(alias));
+    }
+    return aliasDtos;
+  }
+
 }

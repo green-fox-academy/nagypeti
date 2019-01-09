@@ -1,22 +1,20 @@
 package com.trialexam.demo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+public class AliasDto {
 
-@Entity
-public class Alias {
-
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
-  private long secretCode;
   private String url;
   private String aliasName;
   private long hitCount;
 
-  public Alias() {
+  public AliasDto() {
+  }
+
+  public AliasDto(long id, String url, String aliasName, long hitCount) {
+    this.id = id;
+    this.url = url;
+    this.aliasName = aliasName;
+    this.hitCount = hitCount;
   }
 
   public long getId() {
@@ -47,15 +45,7 @@ public class Alias {
     return hitCount;
   }
 
-  public void setHitCount(int hitCount) {
+  public void setHitCount(long hitCount) {
     this.hitCount = hitCount;
-  }
-
-  public long getSecretCode() {
-    return secretCode;
-  }
-
-  public void setSecretCode(long secretCode) {
-    this.secretCode = secretCode;
   }
 }
