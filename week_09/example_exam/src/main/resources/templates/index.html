@@ -9,12 +9,8 @@
 <body>
 <div class="message">
 	<p th:text="${error}" th:style="'color:red'"></p>
-	<p th:if="${code != 'empty' && error != 'Your alias is already in use!'}">
-		Your URL is aliased to
-		<b th:text="${name}"></b>
-		and your secret code is
-		<b th:text="${code}"></b>
-	</p>
+	<p th:if="${code != 'empty' && error != 'Your alias is already in use!'}"
+		 th:utext="|Your URL is aliased to <b>${name}</b> and your secret code is <b>${code}</b>|" />
 </div>
 <div class="container">
 	<form th:object="${newAlias}" method="post" action="/save-link">
