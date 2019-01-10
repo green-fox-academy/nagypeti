@@ -5,6 +5,7 @@ import com.tourist.info.repository.AttractionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -29,8 +30,12 @@ public class AttractionServiceImpl implements AttractionService {
   }
 
   @Override
-  public void updateById(Long id, Attraction attraction) {
-    repository.save(attraction);
+  public List<Attraction> getLowestPriceByCategory() {
+    List<Attraction> filteredList = new ArrayList<>();
+    for (String string : repository.getCategorys()) {
+      filteredList.add(repository.findTopByCategoryOrderByPrice(string));
+    }
+    return filteredList;
   }
 
 
