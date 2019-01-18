@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  mysql-container:
+    image: mysql:5.6
+    container_name: mysql-container
+    restart: always
+    environment:
+      MYSQL_USER: hellouser
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_PASSWORD: 12345
+      MYSQL_DATABASE: hello_db
+    expose:
+      - 3306
+
+  hello-gradle-container:
+    build: .
+    image: hello-gradle-base-image
+    container_name: hello-gradle-container
+    environment:
+      JDBC_DATABASE_URL: jdbc:mysql://mysql-container:3306/hello_db
+      JDBC_DATABASE_USERNAME: hellouser
+      JDBC_DATABASE_PASSWORD: 12345
+    depends_on:
+      - mysql-container
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/tmp
+    tty: true
