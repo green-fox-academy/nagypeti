@@ -1,0 +1,16 @@
+*/
+
+    Java Class
+
+    •	In a class we can create methods ("függvény")
+        o	return value of method can be:
+            	exact value (int, double, string, etc.) – Return value = variable given
+            	void (it means we dont want any return) – Return value = nothing
+
+    •	Definiálhatunk global (konstans) változókat.
+        o	A final megnevezés teszi konstanssá
+        o	Ezeket a változókat semmilyen módon nem lehet felülírni, a program is figyelmeztet rá, ha új értéket akarunk rendelni.
+        o	Konstans változók elnevezési guidja alapján az alábbi stílust használjuk
+        o	public static final int MY_NUMBER = 6;
+
+*/
