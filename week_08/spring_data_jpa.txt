@@ -1,7 +1,0 @@
-JPA - Java Persistence API - makes ORM more consistent. It is a standard what implemented in more ORM tools.
-ORM - Object Relational Mapping - a programming technique for converting data between incompatible type systems (Java -> MySQL) example tools (frameworks) for ORM: Hibarnate, iBatis, TopLink, etc.
-
-ORM - is a technique to use CRUD (Create Read Update Delete) operations from an OOP in a relational database - we using data layer, its going to convert our commands of CRUD as database query
-	- In database we have tables with columns an rows
-	- In OO program we have classes with fields in them, the field going to be the column, the value going to 
-

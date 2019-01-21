@@ -1,3 +1,0 @@
-thymeleaf - templating engine
- - Model class is a pre-written in thymeleaf (like a hasmap with keys and values)
-
