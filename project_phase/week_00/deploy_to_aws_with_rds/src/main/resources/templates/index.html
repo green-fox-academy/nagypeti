@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Attractions</title>
+</head>
+<body>
+	<form th:method="post" th:action="@{/add}" th:object="${attraction}">
+		<input hidden th:field="*{id}">
+		<label>name</label>
+		<input type="text" required th:field="*{name}">
+		<label>city</label>
+		<input type="text" required th:field="*{city}">
+		<label>price</label>
+		<input type="number" required th:field="*{price}">
+		<label>longitude</label >
+		<input type="number" required th:field="*{longitude}">
+		<label>latitude</label>
+		<input type="number" required th:field="*{latitude}">
+		<label>category</label>
+		<input type="text" required th:field="*{category}">
+		<label>duration</label>
+		<input type="number" required th:field="*{duration}">
+		<label>recommendedAge</label>
+		<input type="number" required th:field="*{recommendedAge}">
+		<button type="submit">Submit</button>
+	</form>
+	<table>
+		<tr>
+			<td>name</td>
+			<td>city</td>
+			<td>price</td>
+			<td>longitude</td>
+			<td>latitude</td>
+			<td>category</td>
+			<td>duration</td>
+			<td>recommendedAge</td>
+		</tr>
+		<tr th:object="${attraction}" th:each="attraction : ${attractions}">
+			<td th:text="*{name}"></td>
+			<td th:text="*{city}"></td>
+			<td th:text="*{price}"></td>
+			<td th:text="*{longitude}"></td>
+			<td th:text="*{latitude}"></td>
+			<td th:text="*{category}"></td>
+			<td th:text="*{duration}"></td>
+			<td th:text="*{recommendedAge}"></td>
+		</tr>
+	</table>
+</body>
+</html>
