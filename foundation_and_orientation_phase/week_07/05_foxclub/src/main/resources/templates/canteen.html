@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" th:href="@{css/login.css}" />
+  <title>Canteen</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <form class="from-canteen" method="post" th:action="@{/canteen}">
+    <h1>Select food and drink</h1>
+    <label>Food: </label>
+    <select name="food" th:field="${player.food}">
+      <option th:each="food : ${menu.food}" th:value="${food}" th:text="${food}"/>
+    </select>
+    <label>Drink: </label>
+    <select name="drink" th:field="${player.drink}">
+      <option th:each="drink : ${menu.drink}" th:value="${drink}" th:text="${drink}"/>
+    </select>
+    <button type="submit">Select those</button>
+  </form>
+</body>
+</html>
