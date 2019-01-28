@@ -1,4 +1,12 @@
+# Local project files
 .idea/
 out/
 *.iml
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
 
