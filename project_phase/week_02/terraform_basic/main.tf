@@ -16,7 +16,7 @@ resource "aws_instance" "web1" {
   }
 
   tags {
-    Name = "isitworking?"
+    Name = "elk-test?"
   }
 
   provisioner "remote-exec" {
