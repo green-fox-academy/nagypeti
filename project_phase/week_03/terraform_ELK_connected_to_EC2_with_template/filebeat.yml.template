@@ -1,0 +1,16 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/*.log
+setup.kibana:
+  host: "${YOUR_ELK_IP}:5601"
+  protocol: "http"
+  username:
+  password:
+output.elasticsearch:
+  hosts: ["${YOUR_ELK_IP}:9200"]
+  protocol: "http"
+  path:
+  username:
+  password:

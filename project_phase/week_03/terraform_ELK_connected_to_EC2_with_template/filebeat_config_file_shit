@@ -1,0 +1,60 @@
+
+provisioner "remote-exec" {
+  inline = [
+    "sudo tee /etc/filebeat/filebeat.yml <<EOF",
+    "${template_file.filebeat-config.rendered}",
+    "EOF",
+  ]
+}
+
+
+resource "null_resource" "test8" {
+  provisioner "local-exec" {
+    command = <<EOF
+"echo \"${data.template_file.filebeat-config.rendered}\" > filebeat.yml"
+EOF
+  }
+}
+
+
+provisioner "file" {
+    source = "${var.path_to_workdir}/filebeat.yml.template"
+    destination = ""
+    connection {
+        type = "ssh"
+        user = "ubuntu"
+        private_key = "${file("~/.ssh/google_compute_engine")}"
+    }
+}
+
+provisioner "remote-exec" {
+    inline = [
+      "chmod +x ~/installations.sh",
+      "cd ~",
+      "./installations.sh"
+    ]
+    connection {
+        type = "ssh"
+        user = "ubuntu"
+        private_key = "${file("~/.ssh/google_compute_engine")}"
+    }
+
+}
+
+# PERMISSION DENIED ERROR WHILE EXECUTING SCP ON REMOTE HOST (THIS METHOD IS RENDERING THE TEMPLATE JUST FINE)
+
+provisioner "file" {
+  content     = "${data.template_file.filebeat-config.rendered}"
+  destination = "/etc/filebeat/filebeat.yml"
+}
+
+
+# WORKING DATA TEMPLATE FILE
+
+data "template_file" "filebeat-config" {
+  template = "${file("${var.path_to_workdir}/filebeat.yml.template")}"
+
+  vars {
+    YOUR_ELK_IP = "${aws_instance.elk-runner-test.public_ip}"
+  }
+}
