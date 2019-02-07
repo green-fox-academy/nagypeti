@@ -18,6 +18,6 @@ variable "profile" {
   default     = "default"
 }
 
-variable "path_to_workdir" {
-  default = "/home/nagypeti/GreenFox/01_greenfox_materials/projects/project_phase/week_03/terraform_ELK_connected_to_EC2"
+variable "workdir_path" {
+  default = "/home/nagypeti/GreenFox/01_greenfox_materials/projects/project_phase/week_03/terraform_ELK_connected_to_EC2_with_template"
 }

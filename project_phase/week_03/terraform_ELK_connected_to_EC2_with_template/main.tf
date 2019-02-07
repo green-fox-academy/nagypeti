@@ -75,7 +75,7 @@ resource "aws_instance" "elk-runner-test" {
 }
 
 data "template_file" "filebeat-config" {
-  template = "${file("${var.path_to_workdir}/filebeat.yml.template")}"
+  template = "${file("${var.workdir_path}/filebeat.yml.template")}"
 
   vars {
     YOUR_ELK_IP = "${aws_instance.elk-runner-test.public_ip}"
@@ -102,7 +102,7 @@ resource "aws_instance" "ec2-to-monitor" {
   }
 
   provisioner "file" {
-    source      = "${var.path_to_workdir}/elastic.repo"
+    source      = "${var.workdir_path}/elastic.repo"
     destination = "/home/ec2-user/elastic.repo"
   }
 
@@ -121,7 +121,7 @@ resource "aws_instance" "ec2-to-monitor" {
       "sudo chown root /etc/filebeat/filebeat.yml",
       "sudo filebeat test config",
       "sudo filebeat test output",
-      "sleep 15;sudo filebeat setup --dashboards",
+      "sleep 40;sudo filebeat setup --dashboards",
       "sudo service filebeat start",
     ]
   }

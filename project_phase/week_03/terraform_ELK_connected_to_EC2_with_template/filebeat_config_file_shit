@@ -1,47 +1,15 @@
 
-provisioner "remote-exec" {
-  inline = [
-    "sudo tee /etc/filebeat/filebeat.yml <<EOF",
-    "${template_file.filebeat-config.rendered}",
-    "EOF",
-  ]
-}
-
+# WE CAN USE null_resource TO RENDER THE FILE LOCALLY
 
 resource "null_resource" "test8" {
   provisioner "local-exec" {
-    command = <<EOF
-"echo \"${data.template_file.filebeat-config.rendered}\" > filebeat.yml"
-EOF
+    command = "echo \"${data.template_file.filebeat-config.rendered}\" > filebeat.yml"
   }
 }
 
 
-provisioner "file" {
-    source = "${var.path_to_workdir}/filebeat.yml.template"
-    destination = ""
-    connection {
-        type = "ssh"
-        user = "ubuntu"
-        private_key = "${file("~/.ssh/google_compute_engine")}"
-    }
-}
-
-provisioner "remote-exec" {
-    inline = [
-      "chmod +x ~/installations.sh",
-      "cd ~",
-      "./installations.sh"
-    ]
-    connection {
-        type = "ssh"
-        user = "ubuntu"
-        private_key = "${file("~/.ssh/google_compute_engine")}"
-    }
-
-}
-
 # PERMISSION DENIED ERROR WHILE EXECUTING SCP ON REMOTE HOST (THIS METHOD IS RENDERING THE TEMPLATE JUST FINE)
+# -> workaround: change destination to /home/ec2-user/filebeat.yml , then copy the file with 'sudo su root -c 'mv /home/ec2-user/filebeat.yml /etc/filebeat/'
 
 provisioner "file" {
   content     = "${data.template_file.filebeat-config.rendered}"
