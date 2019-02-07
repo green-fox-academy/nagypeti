@@ -20,13 +20,3 @@ resource "aws_s3_bucket" "deploy_frontend_website_bucket" {
     index_document = "index.html"
   }
 }
-
-# resource "aws_s3_bucket" "website_redirect" {
-#   bucket = "www.${var.website_bucket_name}"
-#   acl    = "public-read"
-#
-#   website {
-#     redirect_all_requests_to = "${var.website_bucket_name}"
-#   }
-# }
-
