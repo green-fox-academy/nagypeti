@@ -13,15 +13,11 @@ variable "private_key_path" {
   default     = "/home/nagypeti/.ssh/peti-test.pem"
 }
 
+variable "aws_credentials_path" {
+  default = "~/.aws/credentials"
+}
+
 variable "profile" {
   description = "AWS credentials profile you want to use"
   default     = "default"
-}
-
-variable "elkuser" {
-  default = "admin"
-}
-
-variable "elkpass" {
-  default = "admin"
 }

@@ -1,9 +1,3 @@
-provider "aws" {
-  profile                 = "${var.profile}"
-  shared_credentials_file = "~/.aws/credentials"
-  region                  = "${var.aws_region}"
-}
-
 resource "aws_security_group" "elk_sec_group" {
   name = "peti_sec_group_elk"
 
@@ -98,19 +92,35 @@ resource "aws_instance" "ec2-to-monitor" {
       "sudo yum install -y docker",
       "sudo systemctl enable docker.service",
       "sudo systemctl start docker.service",
-      "sudo docker pull store/elastic/filebeat:6.6.0",
+    ]
+  }
+
+  provisioner "remote-exec" {
+    inline = [
+      "docker pull docker.elastic.co/beats/filebeat:6.6.0",
       "curl -L -O https://raw.githubusercontent.com/elastic/beats/6.6/deploy/docker/filebeat.docker.yml",
       <<EOF
-      sudo docker run -d \
-      --name=filebeat \
-      --user=root \
-      --volume="$(pwd)/filebeat.docker.yml:/usr/share/filebeat/filebeat.yml:ro" \
-      --volume="/var/lib/docker/containers:/var/lib/docker/containers:ro" \
-      --volume="/var/run/docker.sock:/var/run/docker.sock:ro" \
-      store/elastic/filebeat:6.6.0 filebeat -e -strict.perms=false \
+      sudo docker run \
+      --rm \
+      docker.elastic.co/beats/filebeat:6.6.0 \
+      setup -E setup.kibana.host=${aws_instance.elk-runner-test.public_ip}:5601 \
       -E output.elasticsearch.hosts=[${aws_instance.elk-runner-test.public_ip}:9200]
 EOF
       ,
+    ]
+  }
+
+  provisioner "remote-exec" {
+    inline = [<<EOF
+      sudo docker run -d \
+        --name=filebeat \
+        --user=root \
+        --volume="$(pwd)/filebeat.docker.yml:/usr/share/filebeat/filebeat.yml:ro" \
+        --volume="/var/lib/docker/containers:/var/lib/docker/containers:ro" \
+        --volume="/var/run/docker.sock:/var/run/docker.sock:ro" \
+        docker.elastic.co/beats/filebeat:6.6.0 filebeat -e -strict.perms=false \
+        -E output.elasticsearch.hosts=["${aws_instance.elk-runner-test.public_ip}:9200"]
+EOF
     ]
   }
 }
