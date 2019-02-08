@@ -1,15 +1,16 @@
 package com.trialexam.demo.service;
 
+import static com.trialexam.demo.service.RandomGen.randFourDigitLong;
+
 import com.trialexam.demo.model.Alias;
 import com.trialexam.demo.model.AliasDto;
 import com.trialexam.demo.repository.AliasRepository;
+import java.util.ArrayList;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import static com.trialexam.demo.service.RandomGen.randFourDigitLong;
 
 @Service
 public class AliasServiceImpl implements AliasService {

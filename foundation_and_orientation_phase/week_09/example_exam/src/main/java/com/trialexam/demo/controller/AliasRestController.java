@@ -3,12 +3,12 @@ package com.trialexam.demo.controller;
 import com.trialexam.demo.model.Alias;
 import com.trialexam.demo.model.AliasDto;
 import com.trialexam.demo.service.AliasServiceImpl;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController
 public class AliasRestController {

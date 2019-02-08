@@ -12,7 +12,9 @@ import org.springframework.transaction.annotation.Transactional;
 public interface AliasRepository extends CrudRepository<Alias, Long> {
 
   boolean existsAliasByAliasName(String aliasName);
+
   Alias findAliasByAliasName(String aliasName);
+
   void deleteById(Long id);
 
   @Modifying

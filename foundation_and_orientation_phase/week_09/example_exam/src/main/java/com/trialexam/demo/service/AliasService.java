@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 public interface AliasService {
 
   void addAlias(Alias alias);
+
   void deleteById(Long id);
 
 }
