@@ -2,11 +2,10 @@ package com.tourist.info.service;
 
 import com.tourist.info.model.Attraction;
 import com.tourist.info.repository.AttractionRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class AttractionServiceImpl implements AttractionService {
