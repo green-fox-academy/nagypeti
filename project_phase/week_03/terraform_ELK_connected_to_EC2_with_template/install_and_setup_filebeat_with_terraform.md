@@ -99,7 +99,7 @@ it uses 'scp' so we can copy files only to folders which are owned by the ec2-us
 
 **Step by step explanation:**
 - rpm - (RedHat package manager) importing GPG-KEY
-- mv - moving the repository info file to yum.repos.d, yum parses this folder to get repository URL-s for packages
+- mv - moving the repository file into yum.repos.d, yum parses this folder to get repository URL-s for packages
 - yum - installing filebeat with yum
 - chkconfig - this option adds a new service for management by chkconfig
 - mv - changing to root user and executing a single command to move the rendered .yml file to the desired location
