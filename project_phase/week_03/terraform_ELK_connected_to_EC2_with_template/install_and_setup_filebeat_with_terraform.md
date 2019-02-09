@@ -57,7 +57,7 @@ resource "aws_instance" "ec2-to-monitor" {
   key_name      = "${var.key_name}"
 
   security_groups = [
-    "peti_sec_group_elk",
+    "elk-sec-group",
   ]
 
   connection {
