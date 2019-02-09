@@ -1,4 +1,65 @@
-# Installing FileBeat with Terraform
+# Setting up ELK on EC2 using docker
+
+**First we have to create the EC2 instance which going to host the ELK stack (Elasticsearch, Logstash, Kibana)**
+
+- ami - image Id, select wich OS should the VM run (We're using Amazon Linux 2)
+- instance_type - We're using medium computer, because the small and micro instance does not have enough resource to run the stack
+- key_name - The name of the SSH key-pair we created on the AWS Console under EC2's network&security
+- tags - name the ec2
+- security_groups - assign EC2 to security group
+- connection:
+    - username (every image has a different userset, AmazonLinux has 'ec2-user' and 'root')
+    - type is ssh
+    - private_key - add the path to the ssh key (example "/home/user/.ssh/test.pem")
+
+```sh
+# /main.tf
+resource "aws_instance" "elk-runner" {
+  ami           = "ami-0eaec5838478eb0ba"
+  instance_type = "t3.medium"
+  key_name = "${var.key_name}"
+  
+  tags {
+    Name = "elk-runner"
+      }
+  security_groups = [
+    "elk-sec-group",
+  ]
+
+  connection {
+    user        = "ec2-user"
+    type        = "ssh"
+    private_key = "${file(var.key_path)}"
+  }
+```
+# Installing docker and starting containerized ELK
+
+**We're using provisioner 'remote-exec' to execute commands on remote host**
+- Install docker using yum (The Yellowdog Updater, Modified) pacakge manager, update packages before install
+- Fire up docker so we can run the container
+- sysctl - this command is used to increase available resources for the container
+    -  increase the max_map_count kernel parameter to avoid running out of memory-mapped areas
+    -  file-max changing the value of how many files can be opened by any running application
+- Run the container detached using sebp/elk image and map the ports used by the 3 ELK service
+    - --ulimit nofile is used to increase the limit of opened files inside the container
+    - Kibana port for example: map TCP port 5601 (right) in the container to port 5601 (left) on the Docker host
+ 
+```sh
+  provisioner "remote-exec" {
+    inline = [
+      "sudo yum update -y",
+      "sudo yum install docker -y",
+      "sudo service docker start",
+      "sudo sysctl -w vm.max_map_count=262144",
+      "sudo sysctl -w fs.file-max=65536",
+      "sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 --name elk --ulimit nofile=65536:65536 -d sebp/elk",
+    ]
+  }
+}
+```
+
+
+# Installing FileBeat on EC2
 
 #### Using template provider to create filebeat.yml
 
