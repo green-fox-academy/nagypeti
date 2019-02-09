@@ -2,11 +2,9 @@
 
 **First we have to create the EC2 instance which going to host the ELK stack (Elasticsearch, Logstash, Kibana)**
 
-- ami - image Id, select wich OS should the VM run (We're using Amazon Linux 2)
-- instance_type - We're using medium computer, because the small and micro instance does not have enough resource to run the stack
-- key_name - The name of the SSH key-pair we created on the AWS Console under EC2's network&security
+- Define the image, the instance type and the ssh key-pair name
 - tags - name the ec2
-- security_groups - assign EC2 to security group
+- Assign EC2 to security group
 - connection:
     - username (every image has a different userset, AmazonLinux has 'ec2-user' and 'root')
     - type is ssh
