@@ -16,7 +16,7 @@ data "template_file" "filebeat-config" {
   template = "${file("${var.workdir_path}/filebeat.yml.template")}"
 
   vars {
-    YOUR_ELK_IP = "${aws_instance.elk-runner-test.public_ip}"
+    YOUR_ELK_IP = "${aws_instance.elk-runner.public_ip}"
   }
 }
 ```
@@ -43,10 +43,7 @@ output.elasticsearch:
 
 - Define the image, the instance type and the ssh key-pair name
 - Add the security group
-- Add connection:
-    - Username (every image has a different userset, AmazonLinux has 'ec2-user' and 'root')
-    - Type is ssh
-    - We have to add the path to the ssh key (example "/home/user/.ssh/test.pem")
+- Connection settings
 - Tags: name tag is useful to distinguish the running instances
 
 ```sh
