@@ -57,7 +57,7 @@ resource "aws_instance" "elk-runner" {
 ```
 
 
-# Installing FileBeat on EC2
+# Installing FileBeat to the VM we want to monitor (on EC2)
 
 #### Using template provider to create filebeat.yml
 
