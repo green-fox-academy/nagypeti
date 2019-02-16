@@ -1,6 +1,6 @@
 ## :books: Exam requirements on Endpoints: :tada: :bulb:
 
-## 1. Request Parameters:
+### 1. Request Parameters:
 
 Four types: header params, path params, query string params and request body params
 
@@ -13,7 +13,7 @@ In Spring: RequestHeader, PathVariable, RequestParam and RequestBody
 	example: /surfreport/{beachId}?days=3&units=metric&time=1400
 - Request body params: most frequently used in post/put/delete methods. Mainly using some lightweight data-interchange format in the requests body, like JSON or XML.
 
-## 2. Request header:
+### 2. Request header:
 
 HTTP headers allow the client and the server to pass additional information with the request or the response.
 
@@ -23,19 +23,19 @@ There is 4 group of HTTP headers based on their contexts:
     • Response header: Headers with additional information about the response, like its location or about the server itself (name and version etc.).
     • Entity header: Headers containing more information about the body of the entity, like its content length or its MIME-type.
 
-## 3. Request body:
+### 3. Request body:
 
 Most HTTP requests are GET requests without bodies. Most HTTP requests with bodies use POST or PUT request method.
 
 In REST communication this is the place where the data is transferred in XML or JSON format.
 
-## 4. Request and Response?
+### 4. Request and Response?
 
 The HTTP request and response is the main components of the HTTP communication between client and server.
 
 A client sends a request and the server returns a response. Servers also can communicate with each other trough HTTP request and response.
 
-## 5. Main status codes:
+### 5. Main status codes:
 
 **1xx:** _Informational_
 **2xx:** _Success_
@@ -76,7 +76,7 @@ Example: the requested port is not open for communication
 
 **504 Gateway Timeout** - means that the server is a gateway or proxy server, and it is not receiving a response from the backend servers within the allowed time period.
 
-## 6. REST, RESTful API:
+### 6. REST, RESTful API:
 
 Representational State Transfer
 
@@ -86,7 +86,7 @@ RESTful API = RESTful web-service
 
 > A “web service” is a web-based application that provides resources in a format consumable by other computers. Web services include various types of APIs, including both REST and SOAP APIs. Web services are basically request-and-response interactions between clients and servers (a computer requests a resource, and the web service responds to the request).
 
-## 7. HTTP vs HTTPS?
+### 7. HTTP vs HTTPS?
 
 HTTP and HTTPS are the two protocols used to transmit data across the internet and between websites. HTTP stands for Hypertext Transfer Protocol, while the addition of the 'S' in HTTPS means it's a secure connection. Although it isn't a security provision in its own right, it indicates that the transmission of data happens securely using a Secure Socket Layer (SSL).
 
@@ -94,7 +94,7 @@ HTTP f you don't have an SSL certificate installed, data is transmitted in plain
 
 Adding an SSL certificate means these communications are secured using encryption, so even if hackers do manage to intercept the information, it’s very hard to unscramble to data into any sensical insight.
 
-## 8. Parts of URL:
+### 8. Parts of URL:
 
 Example of URL syntax:
 
@@ -107,7 +107,7 @@ The main parts:
 - _Path:_ identifies the specific resource in the host that the web client wants to access. Specifies the choosen endpoint.
 - _Query:_ it follows the path component, and provides a string of information that the resource can use for some purpose (parameters for a search or as data to be processed). The query string is usually a string of name and value pairs; for example, term=bluebird. Name and value pairs are separated from each other by an ampersand (&)
 
-## Expected skills (4/5)
+### Expected skills (4/5)
 
 #### Able to explain HTTP request communication flow:
 
