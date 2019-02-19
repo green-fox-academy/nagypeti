@@ -6,22 +6,22 @@ Four types: header params, path params, query string params and request body par
 
 In Spring: RequestHeader, PathVariable, RequestParam and RequestBody
 
-- Header params: in request header, used for authorization mainly (tokens), browser and system information, etc.
-- Path params: are part of the endpoint itself and are not optional
+- **_Header params:_** in request header, used for authorization mainly (tokens), browser and system information, etc.
+- **_Path params:_** are part of the endpoint itself and are not optional
 	example: /service/myresource/user/{user}/bicycles/{bicycleId}
-- Query params: appear after a question mark (?) in the endpoint. It a query string, separateing values with & mark.
+- **_Query params:_** appear after a question mark (?) in the endpoint. It a query string, separateing values with & mark.
 	example: /surfreport/{beachId}?days=3&units=metric&time=1400
-- Request body params: most frequently used in post/put/delete methods. Mainly using some lightweight data-interchange format in the requests body, like JSON or XML.
+- **_Request body params:_** most frequently used in post/put/delete methods. Mainly using some lightweight data-interchange format in the requests body, like JSON or XML.
 
 ### 2. Request header:
 
 HTTP headers allow the client and the server to pass additional information with the request or the response.
 
 There is 4 group of HTTP headers based on their contexts:
-    • General header: Headers applying to both requests and responses but with no relation to the data eventually transmitted in the body.
-    • Request header: Headers containing more information about the resource to be fetched or about the client itself  (tokens, browser info, etc.).
-    • Response header: Headers with additional information about the response, like its location or about the server itself (name and version etc.).
-    • Entity header: Headers containing more information about the body of the entity, like its content length or its MIME-type.
+- **_General header:_** Headers applying to both requests and responses but with no relation to the data eventually transmitted in the body.
+- **_Request header:_** Headers containing more information about the resource to be fetched or about the client itself  (tokens, browser info, etc.).
+- **_Response header:_** Headers with additional information about the response, like its location or about the server itself (name and version etc.).
+- **_Entity header:_** Headers containing more information about the body of the entity, like its content length or its MIME-type.
 
 ### 3. Request body:
 
@@ -43,38 +43,23 @@ A client sends a request and the server returns a response. Servers also can com
 **4xx:** _Client Error_
 **5xx:** _Server Error_
 
-**100 Continue** - The server has received the request headers and the client should proceed to send the request body.
-
-**102 Processing** - A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost.
-
-**200 OK** - Standard response for successful HTTP requests.
-
-**201 Created** - The request has been fulfilled, resulting in the creation of a new resource.
-
-**202 Accepted** - The request has been accepted for processing, but the processing has not been completed.
-
-**204 No Content** - The server successfully processed the request and is not returning any content.
-
-**301 Moved Permanently** - This and all future requests should be directed to the given URI.
-
-**303 See Other** - The response to the request can be found under another URI using the GET method.
-
-**401 Unauthorized** - means that the user trying to access the resource has not been authenticated or has not been authenticated correctly.
-
-**400 Bad Request** - means the HTTP request that was sent to the server has invalid syntax.
-
-**403 Forbidden** - means that the user made a valid request but the server is refusing to serve the request, due to a lack of permission to access the requested resource.
-
-**404 Not Found** - means that the user is able to communicate with the server but it is unable to locate the requested file or resource.
-
-**500 Internal Server Error** - means that server cannot process the request for an unknown reason.
-
+**100 Continue** - The server has received the request headers and the client should proceed to send the request body. </br>
+**102 Processing** - A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost. </br>
+**200 OK** - Standard response for successful HTTP requests. </br>
+**201 Created** - The request has been fulfilled, resulting in the creation of a new resource. </br>
+**202 Accepted** - The request has been accepted for processing, but the processing has not been completed. </br>
+**204 No Content** - The server successfully processed the request and is not returning any content. </br>
+**301 Moved Permanently** - This and all future requests should be directed to the given URI. </br>
+**303 See Other** - The response to the request can be found under another URI using the GET method. </br>
+**401 Unauthorized** - means that the user trying to access the resource has not been authenticated or has not been authenticated correctly. </br>
+**400 Bad Request** - means the HTTP request that was sent to the server has invalid syntax. </br>
+**403 Forbidden** - means that the user made a valid request but the server is refusing to serve the request, due to a lack of permission to access the requested resource. </br>
+**404 Not Found** - means that the user is able to communicate with the server but it is unable to locate the requested file or resource. </br>
+**500 Internal Server Error** - means that server cannot process the request for an unknown reason. </br>
 **502 Bad Gateway** - means that the server is a gateway or proxy server, and it is not receiving a valid response from the backend servers that should actually fulfill the request.
-Example: the requested port is not open for communication
-
-**503 Service Unavailable** - means that the server is overloaded or under maintenance. This error implies that the service should become available at some point.
-
-**504 Gateway Timeout** - means that the server is a gateway or proxy server, and it is not receiving a response from the backend servers within the allowed time period.
+Example: the requested port is not open for communication. </br>
+**503 Service Unavailable** - means that the server is overloaded or under maintenance. This error implies that the service should become available at some point. </br>
+**504 Gateway Timeout** - means that the server is a gateway or proxy server, and it is not receiving a response from the backend servers within the allowed time period. </br>
 
 ### 6. REST, RESTful API:
 
@@ -102,10 +87,10 @@ Example of URL syntax:
 
 The main parts:
 
-- _Scheme:_ identifies the protocol to be used to access the resource on the Internet. It can be HTTP (without SSL) or HTTPS (with SSL).
-- _Host:_ identifies the host (domain name) that holds the resource. For example, www.example.com. A server provides services in the name of the host, but hosts and servers do not have a one-to-one mapping. May followed by a port number.
-- _Path:_ identifies the specific resource in the host that the web client wants to access. Specifies the choosen endpoint.
-- _Query:_ it follows the path component, and provides a string of information that the resource can use for some purpose (parameters for a search or as data to be processed). The query string is usually a string of name and value pairs; for example, term=bluebird. Name and value pairs are separated from each other by an ampersand (&)
+- **_Scheme:_** identifies the protocol to be used to access the resource on the Internet. It can be HTTP (without SSL) or HTTPS (with SSL).
+- **_Host:_** identifies the host (domain name) that holds the resource. For example, www.example.com. A server provides services in the name of the host, but hosts and servers do not have a one-to-one mapping. May followed by a port number.
+- **_Path:_** identifies the specific resource in the host that the web client wants to access. Specifies the choosen endpoint.
+- **_Query:_** it follows the path component, and provides a string of information that the resource can use for some purpose (parameters for a search or as data to be processed). The query string is usually a string of name and value pairs; for example, term=bluebird. Name and value pairs are separated from each other by an ampersand (&)
 
 ### Expected skills (4/5)
 
