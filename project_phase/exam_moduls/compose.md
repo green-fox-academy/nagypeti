@@ -37,15 +37,17 @@ The compose files has theirs own versions.
 ```YAML
 version: '3'
 ```
-Naming convention is to use Docker-compose.yml, but we can set define the location of the .yml file with **-f, --file_** argument </br>
+Naming convention is to use Docker-compose.yml, but we can set the location of the .yml file with **_-f, --file_** argument.
+
 Passing env variables to compose is possible through .env files.  
 
 The usage example (explained with comments) of the compose.yml is below :arrow_down:
 
-### Start and stop containers
+### 3. Start and stop containers
 
 Set-up volumes/Nws and start all containers: </br>
 **_docker-compose up_**
+- We can use **_-d, --detach_** mode here as well
 
 Stop all containers and remove cont/vol/NW: </br>
 **_docker-compose down_**
@@ -59,9 +61,8 @@ We can list out the processes which are running: </br>
 Show all running containers started wit compose: </br>
 **_docker compose ps_**
 
-We can use **_-d, --detach_** mode here as well
 
-### Example .yml with description of different parts of it:
+### :pencil: Example .yml with description of different parts of it:
 ```YAML
 # Version of docker-compose file
 version: '3'
@@ -128,4 +129,8 @@ services:
 # We are creating the volume locally for the mysql container
 volumes:
   mysql-data
+
+# Create networks here, then add line --> networks: -nameOfNetwork to the service
+networks:
+
 ```
