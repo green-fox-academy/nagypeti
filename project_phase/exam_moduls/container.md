@@ -160,3 +160,14 @@ Managing docker networks from CLI:
 - **docker network inspect <network_name>** - Provides details about network in JSON
 - **docker network connect <network_name> <container_name>** - Connect container to network
 - **docker network disconnect <network_name> <container_name>** - Disconnect from network
+
+#### 3. Volumes
+
+List volumes on host: </br>
+**_docker volumes ls_** - list all docker volumes </br>
+
+We can use --mount argument to define which folder should be used with the folder created with VOLUME inside the container. </br>
+**_--mount source=<volume_name>,destination=<volume_path_inside_container>_**
+
+We can use bind mount, it means that any change made inside the source or the target is going to be reflected in the other location
+**_--mount type=bind,source=<path_to_host_folder>,target=<path_to_container_folder>_**
