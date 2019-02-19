@@ -16,4 +16,4 @@
 - [Terraform :wrench:](https://github.com/green-fox-academy/nagypeti/blob/master/project_phase/exam_moduls/terraform.md)
 
 
-** :mag: Some extra knowledge about [stuffs :open_file_folder:](https://github.com/green-fox-academy/nagypeti/tree/master/project_phase/exam_moduls/extra_knowledge)**
+**:mag: Some extra knowledge about [stuffs :open_file_folder:](https://github.com/green-fox-academy/nagypeti/tree/master/project_phase/exam_moduls/extra_knowledge)**
