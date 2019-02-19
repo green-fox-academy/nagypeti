@@ -55,6 +55,9 @@ ADD rootfs.tar.xz /.
 If you have multiple Dockerfile steps that use different files from your context, COPY them individually, rather than all at once. This ensures that each step’s build cache is only invalidated (forcing the step to be re-run) if the specifically required files change.
 
 **ENTRYPOINT & CMD** </br>
+
+This is the basic command which will be executed when we start/run a container.
+
 The exec form is where you specify commands and arguments as a JSON array. This means you need to use double quotes rather than single quotes.
 
 ```Dockerfile
