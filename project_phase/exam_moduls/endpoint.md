@@ -63,11 +63,13 @@ Example: the requested port is not open for communication. </br>
 
 ### 6. REST, RESTful API:
 
-Representational State Transfer
+Web API's are used by computers/softwares to communicate with each other trough HTTP methods. Structured requests and responses. We can use for example JSON or XML to send or receive the data.
+
+REST - Representational State Transfer
 
 REST is also a language-independent architectural style for developing web services. An example of this arrangement is REST-based interactions all communicate their status using standard HTTP status codes. Details such as encryption and data transport integrity are solved not by adding new frameworks or technologies, but instead by relying on well-known Secure Sockets Layer (SSL) encryption and Transport Layer Security (TLS)
 
-RESTful API = RESTful web-service
+RESTful API = REST API = RESTful web-service
 
 > A “web service” is a web-based application that provides resources in a format consumable by other computers. Web services include various types of APIs, including both REST and SOAP APIs. Web services are basically request-and-response interactions between clients and servers (a computer requests a resource, and the web service responds to the request).
 
