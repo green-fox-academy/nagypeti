@@ -29,7 +29,7 @@ public class LoginController {
   }
 
   @PostMapping
-  public String addUser(@ModelAttribute("user") User user, RedirectAttributes rd) {
+  public String addUser(@ModelAttribute("user") User user, RedirectAttributes rd) {                                                                                                                                                                                                                                                                                                                                                                                                                                                       0
     userService.addUser(user);
     rd.addAttribute("currentuser", user.getId());
     return "redirect:/{currentuser}";
