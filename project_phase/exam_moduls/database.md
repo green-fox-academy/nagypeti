@@ -16,7 +16,7 @@ JPA - Java Persistence API - makes ORM more consistent. It is a standard what im
 Within computer programming, the acronym CRUD stands for create, read, update and delete. These are the four basic functions of persistent storage.
 
 | Operation	| SQL	| HTTP	| RESTful WS	| DDS
-| ----------- | ----------- | ----------- |
+| ----------- |
 |Create |	INSERT |	PUT / POST |	POST |	write
 |Read (Retrieve) |	SELECT |	GET	 | GET	| read / take
 |Update (Modify) |	UPDATE |	PUT / POST / PATCH | PUT |	write
