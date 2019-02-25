@@ -1,4 +1,4 @@
-## :books: Exam requirements on container: :whale:
+## :books: Exam requirements on database: :truck:
 
 
 ### 1. ORM
