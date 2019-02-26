@@ -38,7 +38,9 @@ In rest communication their is no view option, the controller returns the data a
 
 ### 5. Components
 
+In Spring we can add @Component annotation on classes we want to add to the bean.
 
+There are specific components as repository, controller, entity, service
 
 ### 6. DI, IoC
 
