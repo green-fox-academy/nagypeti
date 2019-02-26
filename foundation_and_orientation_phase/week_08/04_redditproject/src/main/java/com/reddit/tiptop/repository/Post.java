@@ -19,7 +19,7 @@ public class Post {
   private String timeSinceCreation;
 
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name = "userId")
+  @JoinColumn(name = "userId", referencedColumnName = "id")
   private User user;
 
 
