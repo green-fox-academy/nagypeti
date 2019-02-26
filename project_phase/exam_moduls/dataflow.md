@@ -1,34 +1,53 @@
-## Exam requirements on dataflow:  
+## :books: Exam requirements on dataflow: :twisted_rightwards_arrows:
 
-### Layers (Layered architechture)
+### 1. Layers (Layered architechture)
 
 The most common development architecture.
+
 Components within the layered architecture pattern are organized into horizontal layers, each layer performing a specific role within the app (e.g. presentation logic or business logic).
-Components within a specific layer deal only with logic that pertains to that layer.
+
+Components within a specific layer deal only with logic that pertains to that layer (single responsibility principle).
 Each layer can have multiple components. Commonly used layers: Presentation, Business, Service, Persistance, Database. Layers can be combined (e.g. Business + Service).
 
-### Service
+### 2. Service
 
 A Service class/interface provides a way of a client to interact with some functionality in the application.
+
 This is typically a public layer. For example, a TicketingService interface might allow you to buyTicket, sellTicket, changeTicket and so on.
 
-### MVC
+### 3. MVC
 
-Model–view–controller is an architectural pattern used for developing that divides an application into three interconnected parts.
-This is done to separate internal representations of information from the ways information is presented to and accepted from the user. (=seperate responsibilities)
-The model is responsible for managing the data of the application. It receives user input from the controller.
-The view means presentation of the model in a particular format.
-The controller responds to the user input and performs interactions on the model objects. The controller receives the input, optionally validates it and then passes the input to the model.
+The Model-View-Controller (MVC) is an architectural (design) pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components are built to handle specific development aspects of an application.(=seperate responsibilities)
 
-Communication between layers and components <-- Ez egy jó hülye alap kérdés: önmagában sztem felesleges beszélni róla, inkább a többinél említeni (főleg DI-nál)
-In a layered architechture layers and components are communicating with each other by passing "messages" (in case a layer is on another server) or by calling methods of another layer.
+**The model** is responsible for managing the data of the application. It receives user input from the controller.
+
+**The view** means presentation of the model in a particular format.
+
+**The controller** responds to the user input and performs interactions on the model objects. The controller receives the input, optionally validates it and then passes the input to the model.
+
 A layer can only communicate with a "neighbour" layer/component directly. If we ask for a data from the controller, the controller asks the service, the service the repo and the repo finally retrieves that data.
 
-### DI, IoC
+User sees the view --> makes request (uses the controller) --> based on the request the app goes to the controller --> then calls for a model (service, repository), after the job is done it returns --> it goes back to controller --> then it selects the new view.
+
+In rest communication their is no view option, the controller returns the data after recieving it.
+
+
+### 4. Joined models
+
+
+
+### 5. Components
+
+
+
+### 6. DI, IoC
 
 DI = Dependancy Injection, IoC = Inversion of Control. Important: DI is a form of IoC.
+
 Dependency injection is a technique where one object supplies the dependencies of another object.
+
 More info about DI at the expected skills.
+
 Az IoC technika lényege, hogy a komponenskezelést (pl. létrehozást, példányosítást, paraméterezést, metódus hívás) kiemeljük a programkódból, és általában egy külső keretrendszerre bízzuk. (pl. Spring)
 
 ### Expected skills (3/4)
