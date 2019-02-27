@@ -20,7 +20,6 @@ docker build -t <image_name>:<tag_name> <location_of_context_to_build>
 ```
 **_--no-cache_** - build without relying on cache from the last build </br>
 **_-t, --tag_** - tagging the image with a name </br>
-**_--rm_** - remove intermediate containers after a successful build </br>
 **_-f, --file_** - we can give the path to another Dockerfile to build from </br>
 
 #### Dockerfile instructions:
