@@ -68,6 +68,33 @@ It involves ensuring that the integrated components of an application function a
 
 ### 4. Mocking (mock, stub, spy)
 
+
+Mocking in SpringBoot:
+
+- We can mock the service, and we can create http requests without starting a server using mockMvc
+- MockBean is used to mock a layer that is needed to use to test another layer. Here we want to test the controller (endpoint test), but we don't want to test the greet() method from the service layer
+
+
+```Java
+@RunWith(SpringRunner.class)
+@WebMvcTest(GreetingController.class)
+public class WebMockTest {
+
+  @Autowired
+  private MockMvc mockMvc;
+
+  @MockBean
+  private GreetingService service;
+
+  @Test
+  public void greetingShouldReturnMessageFromService() throws Exception {
+    when(service.greet()).thenReturn("Hello Mock");
+    this.mockMvc.perform(get("/greeting")).andDo(print()).andExpect(status().isOk())
+            .andExpect(content().string(containsString("Hello Mock")));
+  }
+}
+```
+
 ### 5. Assertions
 
 With JUnit:
