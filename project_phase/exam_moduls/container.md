@@ -16,7 +16,7 @@ Containers are a running instances of Images (containg: executables, dependencie
 
 We can define the build process in a Dockerfile and then we can run _docker build_, to build the image based on the instructions specified in the Dockerfile.
 ```sh
-docker build -t <image_name>:<tag_name> <location_of_dockerfile>
+docker build -t <image_name>:<tag_name> <location_of_context_to_build>
 ```
 **_--no-cache_** - build without relying on cache from the last build </br>
 **_-t, --tag_** - tagging the image with a name </br>
